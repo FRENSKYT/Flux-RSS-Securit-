@@ -29,6 +29,32 @@ Un navigateur ne peut pas lire directement ces flux (restriction CORS). Le site 
 2. **Mode direct** — au clic sur « Actualiser » ou pendant l'actualisation automatique, le navigateur
    interroge aussi les flux via des proxys CORS publics pour récupérer les toutes dernières publications.
 
+## Notifications sur téléphone (ntfy)
+
+À chaque passage de la tâche GitHub (toutes les 30 min), une notification [ntfy](https://ntfy.sh) est envoyée
+pour chaque nouvel article. Les notifications sont regroupées au-delà de 3 nouveautés dans une même catégorie.
+
+| Catégorie  | Notification | Priorité |
+|------------|--------------|----------|
+| Alertes    | 🚨 Alerte CERT-FR — « Une nouvelle alerte a été publiée. » | urgente |
+| Menaces    | 🕵️ Menace CERT-FR — « Une nouvelle menace a été publiée. » | haute |
+| Sécurité   | 🛡️ Avis de sécurité CERT-FR — « Un nouvel avis de sécurité a été publié. » | normale |
+| IT-Connect | 📰 IT-Connect — « Un nouvel article a été publié. » | basse (silencieuse) |
+
+Chaque notification contient le titre, un résumé, les CVE et un bouton « Lire l'article ».
+Textes, emojis et priorités se modifient dans `config/feeds.json` (bloc `notify`).
+
+**Mise en place**
+
+1. Installez l'application **ntfy** (Play Store / App Store), appuyez sur **+** et abonnez-vous à un sujet
+   au nom long et difficile à deviner (ex. `veille-secu-k7p2x9q4m`). Toute personne connaissant ce nom peut lire les notifications.
+2. Sur GitHub : *Settings → Secrets and variables → Actions → New repository secret*,
+   nom `NTFY_TOPIC`, valeur : le nom du sujet.
+3. *(Optionnel)* onglet *Variables* : `SITE_URL` = l'adresse du site, pour ajouter un bouton « Voir le site ».
+4. Test : *Actions → Mise à jour des flux RSS → Run workflow*, cochez « Envoyer une notification de test ».
+
+Options avancées : `NTFY_SERVER` (variable, serveur ntfy auto-hébergé) et `NTFY_TOKEN` (secret, sujet protégé).
+
 ## Mise en ligne (GitHub Pages)
 
 1. Fusionnez cette branche dans la branche par défaut (les tâches planifiées GitHub ne tournent que sur celle-ci).
