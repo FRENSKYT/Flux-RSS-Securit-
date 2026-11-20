@@ -1,1 +1,1678 @@
-{ "generatedAt": null, "feeds": [], "status": {}, "items": [] }
+{
+  "generatedAt": "2026-11-20T08:34:05.141Z",
+  "feeds": [
+    {
+      "id": "alertes",
+      "label": "Alertes",
+      "source": "CERT-FR",
+      "url": "https://cert.cyber.gouv.fr/alerte/feed/"
+    },
+    {
+      "id": "menaces",
+      "label": "Menaces",
+      "source": "CERT-FR",
+      "url": "https://cert.cyber.gouv.fr/cti/feed/"
+    },
+    {
+      "id": "securite",
+      "label": "Sécurité",
+      "source": "CERT-FR",
+      "url": "https://cert.cyber.gouv.fr/avis/feed/"
+    },
+    {
+      "id": "itconnect",
+      "label": "IT-Connect",
+      "source": "IT-Connect",
+      "url": "https://www.it-connect.fr/feed/"
+    }
+  ],
+  "status": {
+    "alertes": {
+      "ok": true,
+      "count": 40
+    },
+    "menaces": {
+      "ok": true,
+      "count": 40
+    },
+    "securite": {
+      "ok": true,
+      "count": 40
+    },
+    "itconnect": {
+      "ok": true,
+      "count": 15
+    }
+  },
+  "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=119831",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "NAS Synology : une mise à jour DSM corrige deux failles critiques, dont NGINX2Root",
+      "link": "https://www.it-connect.fr/nginx2root-synology-dsm-faille-oauth-cve-2026-120382/",
+      "date": "2026-11-20T06:04:17.000Z",
+      "summary": "Synology a publié deux bulletins critiques pour DSM : la faille NGINX2Root et une faille notée 9,8 sur 10 dans OAuth Service. Voici comment protéger votre NAS. Le post NAS Synology : une mise à jour DSM corrige deux failles critiques, dont NGINX2Root a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "NAS",
+        "Synology",
+        "Vulnérabilité"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119827",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "VMware vCenter : une faille critique exploitée comme zero-day depuis septembre 2026",
+      "link": "https://www.it-connect.fr/vmware-vcenter-cve-2026-123890-zero-day/",
+      "date": "2026-11-19T19:00:00.000Z",
+      "summary": "Broadcom a corrigé la CVE-2026-123890, une faille critique dans VMware vCenter exploitée comme zero-day dès septembre 2026 d'après Mandiant. Le post VMware vCenter : une faille critique exploitée comme zero-day depuis septembre 2026 a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "VMware",
+        "Vulnérabilités"
+      ],
+      "cves": [
+        "CVE-2026-123890"
+      ]
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119756",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Mots de passe Active Directory : un attaquant les casse, un outil gratuit les repère avant lui",
+      "link": "https://www.it-connect.fr/specops-password-auditor-audit-active-directory/",
+      "date": "2026-11-19T17:00:00.000Z",
+      "summary": "Un mot de passe robuste peut déjà être compromis. On le prouve avec hashcat, puis on audite l’Active Directory gratuitement avec Specops Password Auditor. Le post Mots de passe Active Directory : un attaquant les casse, un outil gratuit les repère avant lui a été publié sur IT-Connect .",
+      "categories": [
+        "Sécurité & Durcissement AD",
+        "Active Directory",
+        "Cybersécurité",
+        "Mots de passe"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119589",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday TopAchat : jusqu’à 25 % de remise sur les écrans PC OLED et QHD",
+      "link": "https://www.it-connect.fr/bon-plan-ecrans-pc-black-friday-2026-topachat/",
+      "date": "2026-11-19T16:55:00.000Z",
+      "summary": "Black Friday chez TopAchat : jusqu'à 25 % de remise sur les écrans PC, avec des moniteurs QD-OLED 240 Hz dès 299,95 € et des 27 pouces QHD sous les 160 €. Le post Black Friday TopAchat : jusqu’à 25 % de remise sur les écrans PC OLED et QHD a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans",
+        "Black Friday",
+        "Bon plan",
+        "Hardware",
+        "Matériel"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119820",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Cyberattaque contre la Commission européenne : les pirates auraient utilisé l’outil ARTEX",
+      "link": "https://www.it-connect.fr/commission-europeenne-cyberattaque-artex/",
+      "date": "2026-11-19T16:40:11.000Z",
+      "summary": "La Commission européenne confirme une cyberattaque qui a perturbé ses applications internes. Selon POLITICO, les pirates auraient utilisé ARTEX. Le post Cyberattaque contre la Commission européenne : les pirates auraient utilisé l’outil ARTEX a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cyberattaque",
+        "Cybersécurité",
+        "IA"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119818",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "phpAfterShell : PHP corrige sept failles critiques, dont deux variantes de PHP2Shell",
+      "link": "https://www.it-connect.fr/phpaftershell-cve-2026-126714-php-failles-critiques/",
+      "date": "2026-11-19T16:05:31.000Z",
+      "summary": "phpAfterShell (CVE-2026-126714) et six autres failles critiques sont corrigées dans PHP 8.5.13, 8.4.28, 8.3.37 et 8.2.36. Voici l'essentiel à savoir. Le post phpAfterShell : PHP corrige sept failles critiques, dont deux variantes de PHP2Shell a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "PHP",
+        "Vulnérabilité"
+      ],
+      "cves": [
+        "CVE-2026-126714"
+      ]
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119658",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4",
+      "link": "https://www.it-connect.fr/garlic-llm-ia-locale-ps4/",
+      "date": "2026-11-19T10:00:00.000Z",
+      "summary": "Garlic LLM fait tourner l'IA Qwen3.5-9B en local sur le GPU d'une PS4 débridée, sans Internet et à plus de 30 tokens par seconde. Voici ce qu'il faut savoir. Le post Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4 a été publié sur IT-Connect .",
+      "categories": [
+        "Matériel",
+        "Gaming",
+        "IA",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119432",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Panne Microsoft 365 du 12 novembre 2026 : comment bénéficier d’un crédit de service ?",
+      "link": "https://www.it-connect.fr/panne-microsoft-365-credit-sla/",
+      "date": "2026-11-19T06:45:00.000Z",
+      "summary": "Panne Microsoft 365 du 12 novembre : le crédit SLA n'est pas automatique. Calcul, infos à fournir et démarche pour client direct ou CSP : agissez maintenant. Le post Panne Microsoft 365 du 12 novembre 2026 : comment bénéficier d’un crédit de service ? a été publié sur IT-Connect .",
+      "categories": [
+        "Entreprise",
+        "Microsoft",
+        "Microsoft 365"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119726",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
+      "link": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
+      "date": "2026-11-19T05:55:10.000Z",
+      "summary": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560. Le post PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5 a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "PHP",
+        "Vulnérabilité"
+      ],
+      "cves": [
+        "CVE-2026-115560"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans VMware Tanzu (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Mitel (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Progress WS_FTP Server (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Progress WS_FTP Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1571/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Laravel (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1571/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1572/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans ClamAV (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1572/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans ClamAV. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Cisco (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1574/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans WordPress (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1574/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Wireshark (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1576/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Splunk (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1576/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1577/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits NetApp (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1577/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1578/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans les produits Elastic (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1578/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Elastic. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1579/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Drupal (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1579/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1580/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans PHP (19 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1580/",
+      "date": "2026-11-19T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119715",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
+      "link": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
+      "date": "2026-11-18T19:59:23.000Z",
+      "summary": "Failles NGINX : CVE-2026-123007 et CVE-2026-123633 permettent d'exécuter du code à distance via HTTP/2. Voici les versions à installer et comment vous protéger. Le post NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "Nginx",
+        "Vulnérabilité"
+      ],
+      "cves": [
+        "CVE-2026-123007",
+        "CVE-2026-123633"
+      ]
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119605",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Microsoft Ignite 2026 : les nouveautés Intune autour du poste de travail Windows",
+      "link": "https://www.it-connect.fr/ignite-nouveautes-intune-windows-poste-de-travail/",
+      "date": "2026-11-18T16:36:42.000Z",
+      "summary": "Ignite 2026 : Microsoft dévoile des nouveautés Intune et Windows pour le poste de travail, mais presque toutes sont en préversion. Voici ce qu'il faut retenir. Le post Microsoft Ignite 2026 : les nouveautés Intune autour du poste de travail Windows a été publié sur IT-Connect .",
+      "categories": [
+        "Entreprise",
+        "intune",
+        "Microsoft",
+        "Windows"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119620",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Windows Server 2028 : Microsoft durcit Server Core par défaut, pour plus de sécurité",
+      "link": "https://www.it-connect.fr/windows-server-2028-server-core-durci-par-defaut/",
+      "date": "2026-11-18T15:59:12.000Z",
+      "summary": "Avec Windows Server 2028, Server Core est durci dès l'installation (SMB, TLS, WinRM, RDP, etc.). Ce qui change et comment le gérer, voici ce qu'il faut savoir. Le post Windows Server 2028 : Microsoft durcit Server Core par défaut, pour plus de sécurité a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "Cybersécurité",
+        "Microsoft",
+        "Windows Server",
+        "Windows Server 2028"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119474",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures",
+      "link": "https://www.it-connect.fr/fbi-artex-framework-ia-cyberattaques/",
+      "date": "2026-11-18T15:45:00.000Z",
+      "summary": "Le FBI alerte sur ARTEX, un framework de pentest piloté par l'IA détourné par des pirates. Certaines intrusions atteignent un accès admin en moins de 3 heures. Le post FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "IA"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119547",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "PowerShell 7 va débarquer dans Windows : les jours de Windows PowerShell 5.1 sont comptés",
+      "link": "https://www.it-connect.fr/powershell-7-integre-windows-powershell-5-1-deprecie/",
+      "date": "2026-11-18T10:31:17.000Z",
+      "summary": "PowerShell 7 sera intégré à la prochaine version de Windows et Windows PowerShell 5.1 est déprécié. Calendrier et limites du MSIX : voici ce qu'il faut savoir. Le post PowerShell 7 va débarquer dans Windows : les jours de Windows PowerShell 5.1 sont comptés a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "Microsoft",
+        "Powershell",
+        "Windows"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119524",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc.",
+      "link": "https://www.it-connect.fr/java4shell-faille-critique-java-openjdk/",
+      "date": "2026-11-18T08:44:52.000Z",
+      "summary": "La faille Java4Shell (CVE-2026-114938) menace Java 17 à 27 sur certains CPU, et elle permet une exécution de code à distance sans authentification. Le post La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc. a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "Vulnérabilité"
+      ],
+      "cves": [
+        "CVE-2026-114938"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-016/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Oracle Java SE (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-016/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "Le 17 novembre 2026, Oracle a publié un avis de sécurité concernant la vulnérabilité CVE-2026-114938, surnommée *java4shell*, qui affecte le décodeur Base64 de OpenJDK sur les processeurs x86-64 supportant AVX-512 VBMI. Celle-ci permet à un attaquant de provoquer une exécution de code arbitraire...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-114938"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-017/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans F5 NGINX (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-017/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "Le 18 novembre 2026, F5 a publié deux avis de sécurité concernant les vulnérabilités CVE-2026-123633 et CVE-2026-123007. Celles-ci affectent NGINX Open Source et NGINX Plus permettent à un attaquant non authentifié d'exécuter du code à distance, en utilisant le protocole HTTP en version 2. Le...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-123633",
+        "CVE-2026-123007"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Tenable (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1557/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Netgate pfSense (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1557/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Netgate pfSense. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1558/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans FreeBSD (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1558/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans FreeBSD. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un déni de service.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1559/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Google Chrome (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1559/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1560/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Mozilla Firefox (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1560/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1561/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Oracle Database Server (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1561/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Database Server. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1562/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Oracle Java SE (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1562/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Java SE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1563/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Oracle MySQL (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1563/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle MySQL. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1564/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Oracle PeopleSoft (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1564/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle PeopleSoft. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1565/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Oracle Weblogic (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1565/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Weblogic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1566/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Oracle Virtualization (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1566/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Oracle Virtualization. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1567/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits F5 (18 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1567/",
+      "date": "2026-11-18T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Mitel MiCollab (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1548/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans GLPI (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1548/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans GLPI. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1549/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Axis OS (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1549/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Axis OS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1550/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Tenable Identity Exposure (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1550/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Juniper Networks Junos OS Evolved. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1552/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans GitLab (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1552/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une falsification de requêtes côté serveur (SSRF).",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Typo3 (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Typo3. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1554/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans OpenSSL (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1554/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1555/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Microsoft SharePoint (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1555/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft SharePoint. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
+      "date": "2026-11-16T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans MongoDB (16 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
+      "date": "2026-11-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Citrix App Layering (16 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
+      "date": "2026-11-16T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Citrix App Layering. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Microsoft Edge (16 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
+      "date": "2026-11-16T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Point de situation de l’opération REACTIV – octobre 2026 (12 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
+      "date": "2026-11-12T00:00:00.000Z",
+      "summary": "Face à l’intensification des attaques cybercriminelles liées à des violations de données affectant les services de l’État, le Premier ministre a demandé le 1er septembre 2026 à l’Agence nationale de la sécurité des systèmes d’information (ANSSI) de mettre en place une capacité renforcée de...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-009/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Activités cyber offensives ciblant la France menées par des acteurs iraniens liés au CGRI (09 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-009/",
+      "date": "2026-11-09T00:00:00.000Z",
+      "summary": "Les membres du **Centre de Coordination des Crises Cyber (C4)** \\* ont observé plusieurs attaques à but de déstabilisation menées à l’encontre des intérêts français, qu’ils sont en mesure d’imputer **aux unités cyber-offensives Shahid Shoostari et Shahid Kaveh, opérant au sein du Centre...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans OpenSSH (05 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
+      "date": "2026-11-05T00:00:00.000Z",
+      "summary": "[Mise à jour du 6 novembre 2026] Cette vulnérabilité porte l'identifiant CVE-2026-123158. Alpine a publié un bulletin de sécurité (cf. section Documentation) concernant cette vulnérabilité. Le CERT-FR précise que toute installation de correctif ou modification de la configuration doit...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-123158"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Mattermost (04 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1458/",
+      "date": "2026-11-04T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Elles permettent à un attaquant de provoquer un déni de service à distance et un problème de sécurité non spécifié par l'éditeur.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+      "date": "2026-10-21T00:00:00.000Z",
+      "summary": "**[Mise à jour du 26 octobre 2026]** Le 23 octobre 2026, PHP a publié un avis de sécurité concernant la vulnérabilité CVE-2026-115560. Celle-ci permet une exécution de code arbitraire à distance. L'éditeur estime que les conditions d'exploitation exigent une combinaison d'options de configuration...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-115560"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-008/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Violations de données applicatives - Retour d’expérience du CERT-FR (20 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-008/",
+      "date": "2026-10-20T00:00:00.000Z",
+      "summary": "En 2025, le CERT-FR a suivi près de 200 violations de données issues d’applications web. Dans de nombreux cas, ces exfiltrations ont été permises par des actions attaquantes d’un faible niveau de complexité, sans exploitation de vulnérabilité technique. Les divulgations de données ont des impacts...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1344/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Mattermost Server (20 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1344/",
+      "date": "2026-10-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mattermost Server. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Multiples vulnérabilités dans Ivanti Connect Secure (ICS) (14 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
+      "date": "2026-10-14T00:00:00.000Z",
+      "summary": "[Mise à jour du 2 novembre 2026] Le 29 octobre 2026, Ivanti a mis à jour son avis de sécurité du 13 octobre 2026 pour ajouter deux vulnérabilités (CVE-2026-111357 et CVE-2026-118527). Celles-ci permettent à un attaquant authentifié d'élever ses privilèges et de téléverser un fichier arbitraire...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+      "date": "2026-10-12T00:00:00.000Z",
+      "summary": "Le CERT-FR a connaissance de nombreuses compromissions des controleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland xweb et Dixell xweb. De manière générale l'exposition d'une interface de gestion sur Internet est contraire aux bonnes pratiques.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-007/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Vulnérabilités de produits du secteur santé : Retour d'expérience du CERT Santé et du CERT-FR (02 octobre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-007/",
+      "date": "2026-10-02T00:00:00.000Z",
+      "summary": "Le CERT Santé et le CERT-FR assurent le traitement des vulnérabilités qui leur sont signalées par des tiers. A ce titre, ils accompagnent les éditeurs affectés dans la conception et le suivi de plan d’action incluant le développement de correctifs et la communication vers leurs utilisateurs. Dans...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-006/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Point de situation de l’opération REACTIV – septembre 2026 (30 septembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-006/",
+      "date": "2026-09-30T00:00:00.000Z",
+      "summary": "Face à l’intensification des attaques cybercriminelles liées à des violations de données affectant les services de l’État, le Premier ministre a demandé le 1er septembre 2026 à l’Agence nationale de la sécurité des systèmes d’information (ANSSI) de mettre en place une capacité renforcée de...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+      "date": "2026-09-28T00:00:00.000Z",
+      "summary": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de service à distance. La CISA indique que cette vulnérabilité est activement exploitée. **[Mise à jour du 30 septembre 2026]** Dans un billet...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-88779"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-010/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Metabase (10 septembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-010/",
+      "date": "2026-09-10T00:00:00.000Z",
+      "summary": "Le 06 août 2026, Metabase a publié un avis de sécurité concernant une vulnérabilité critique permettant à un attaquant non authentifié de provoquer une injection SQL (SQLi) dans la base de donnée de l'application Metabase. Cette injection SQL permet d’obtenir les droits administrateur de...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-009/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access (02 septembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-009/",
+      "date": "2026-09-02T00:00:00.000Z",
+      "summary": "Le 01 septembre 2026, SonicWall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-83548 permet une falsification de requêtes côté serveur (SSRF) de la part d'un attaquant non authentifié. La vulnérabilité...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-83548"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-008/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Microsoft Sharepoint (22 juillet 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-008/",
+      "date": "2026-07-22T00:00:00.000Z",
+      "summary": "Le 14 juillet 2026, à l'occasion de sa mise à jour mensuelle, Microsoft a publié, entre autres, des correctifs pour deux vulnérabilités critiques affectant SharePoint. Les vulnérabilités CVE-2026-50522 et CVE-2026-58644 permettent à un attaquant non authentifié d'exécuter du code arbitraire à...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-50522",
+        "CVE-2026-58644"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-007/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-007/",
+      "date": "2026-07-20T00:00:00.000Z",
+      "summary": "Le 17 juillet 2026, WordPress a publié un correctif pour deux vulnérabilités : CVE-2026-60137 : une injection SQL (SQLi) ; CVE-2026-63030 : celle-ci permet un contournement de la politique de sécurité. Un attaquant peut exploiter ces deux vulnérabilités, de manière combinée, pour obtenir une...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-60137",
+        "CVE-2026-63030"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-006/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (15 juillet 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-006/",
+      "date": "2026-07-15T00:00:00.000Z",
+      "summary": "Le 14 juillet 2026, Sonicwall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-15409 permet une falsification de requêtes côté serveur (SSRF) de la part d'un attaquant non authentifié. La vulnérabilité...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-15409"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-004/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Ciblage et compromission d’entités françaises au moyen du mode opératoire d’attaque Turla (13 juillet 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-004/",
+      "date": "2026-07-13T00:00:00.000Z",
+      "summary": "English version : 🇬🇧 Les membres du Centre de Coordination des Crises Cyber (C4) ont observé le ciblage et la compromission d’entités françaises au moyen du mode opératoire d’attaque (MOA) Turla, opéré par le 16ème Centre du service fédéral de sécurité de la fédération de Russie (FSB). Depuis au...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-005/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Targeting and Compromise of French Entities Using the Turla Intrusion Set (13 juillet 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-005/",
+      "date": "2026-07-13T00:00:00.000Z",
+      "summary": "Version française: 🇫🇷 Members of the Cyber Crisis Coordination Centre (C4) have observed the targeting and compromise of French entities using the Turla intrusion set operated by the 16th Centre of the Federal Security Service of the Russian Federation (FSB). Since at least 2004, this intrusion...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-005/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[Màj] Vulnérabilité dans Microsoft Exchange Server (15 mai 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-005/",
+      "date": "2026-05-15T00:00:00.000Z",
+      "summary": "[Mise à jour du 11 juin 2026] Le 9 juin 2026, Microsoft a publié des versions correctives. [Publication initiale] Le 14 mai 2026, Microsoft a publié un avis de sécurité concernant la vulnérabilité CVE-2026-42897 affectant Exchange Server. Elle permet à un attaquant non authentifié de provoquer...",
+      "categories": [],
+      "cves": [
+        "CVE-2026-42897"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-003/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "🇬🇧 Cyber Threat Overview 2025 (13 mai 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-003/",
+      "date": "2026-05-13T00:00:00.000Z",
+      "summary": "Version française: 🇫🇷 The boundaries which traditionally separate state-sponsored and cybercriminal actors continued to blur in 2025, thereby further complexifying the imputation process. The exploitation of legitimate applications and services for malicious purposes can, for example, no longer...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-004/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans F5 BIG-IP Access Policy Manager (31 mars 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-004/",
+      "date": "2026-03-31T00:00:00.000Z",
+      "summary": "Le 15 octobre 2025, F5 a publié un avis de sécurité concernant entre autres la vulnérabilité CVE-2025-53521. Celle-ci affecte BIG-IP APM et permet à un attaquant non authentifié d'exécuter du code à distance. Le 29 mars 2026, l'éditeur indique que cette vulnérabilité est exploitée activement. Le...",
+      "categories": [],
+      "cves": [
+        "CVE-2025-53521"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-003/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Note d’alerte – Ciblage des messageries instantanées (20 mars 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-003/",
+      "date": "2026-03-20T00:00:00.000Z",
+      "summary": "Le CERT-FR observe une recrudescence de campagnes d’attaques ciblant les comptes de messagerie instantanées. Ces campagnes ciblent particulièrement les secteurs régaliens (personnalités politiques, cadres de l’administration) mais aussi les personnels de la société civile exerçant des fonctions...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-002/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Panorama de la cybermenace 2025 (11 mars 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-002/",
+      "date": "2026-03-11T00:00:00.000Z",
+      "summary": "English version : 🇬🇧 En 2025, les frontières qui existent traditionnellement entre acteurs étatiques et cybercriminels ont continué de s’éroder, complexifiant notamment le processus d'imputation. Ainsi par exemple le détournement, à des fins malveillantes, d’outils et de services légitimes, n'est...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-002/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans Cisco Catalyst SD-WAN (25 février 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-002/",
+      "date": "2026-02-25T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Cisco Catalyst SD-WAN. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Cisco indique que la vulnérabilité CVE-2026-20127 est activement exploitée.",
+      "categories": [],
+      "cves": [
+        "CVE-2026-20127"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-001/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "L’intelligence artificielle générative face aux attaques informatiques (04 février 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-001/",
+      "date": "2026-02-04T00:00:00.000Z",
+      "summary": "En tant que service numérique innovant, performant et flexible, l’IA générative est progressivement intégrée à l’éventail d’outils et de services auxquels sont susceptibles de recourir les attaquants informatiques quel que soit leur profil. Des modèles d’IA générative sont ainsi utilisées et/ou...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-001/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (30 janvier 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-001/",
+      "date": "2026-01-30T00:00:00.000Z",
+      "summary": "[Mise à jour du 09 février 2026] Le 6 février 2026, Ivanti a mis à disposition des scripts RPM de détection d'indicateurs de compromission, à utiliser en fonction de la version d'EPMM installée. L'éditeur a également mis son guide d'analyse à jour (cf. section Documentation). [Mise à jour du 02...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-014/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans React Server Components (05 décembre 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-014/",
+      "date": "2025-12-05T00:00:00.000Z",
+      "summary": "**[Mise à jour du 11 décembre 2025]** Le CERT-FR a connaissance de multiples exploitations de la vulnérabilité CVE-2025-55182. Les serveurs avec une version vulnérable exposés après la publication des preuves de concept publiques du 5 décembre 2025 doivent être considérés comme compromis....",
+      "categories": [],
+      "cves": [
+        "CVE-2025-55182"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-012/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Téléphones mobiles : État de la menace depuis 2015 (26 novembre 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-012/",
+      "date": "2025-11-26T00:00:00.000Z",
+      "summary": "English version : 🇬🇧 Les téléphones mobiles font aujourd'hui partie du quotidien. L'augmentation croissante des usages, aussi bien liés à la vie personnelle que professionnelle, en font une cible de choix pour les attaquants. Comme tout équipement informatique, et bien que de nouvelles mesures de...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-013/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "🇬🇧 Mobile phones : Threat landscape since 2015 (26 novembre 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-013/",
+      "date": "2025-11-26T00:00:00.000Z",
+      "summary": "Version française: 🇫🇷 Mobile phones are an integral part of everyday life. Their use in every aspect of life, personal as well as professional, makes them a prime target for malicious actors. Mobile phones actually offer unique opportunities for attackers, stemming from their specific use and...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-011/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Opération ENDGAME de novembre 2025 (13 novembre 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-011/",
+      "date": "2025-11-13T00:00:00.000Z",
+      "summary": "Dans le cadre de l'opération de coopération judiciaire internationale ENDGAME lancée en mai 2024, de nouvelles actions de démantèlement ont été menées contre les infrastructures liées à des codes cybercriminels depuis la semaine du 3 novembre 2025. Ces opérations ont impliqué les autorités...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-013/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Multiples vulnérabilités dans Cisco ASA et FTD (25 septembre 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-013/",
+      "date": "2025-09-25T00:00:00.000Z",
+      "summary": "**[Mise à jour du 07 novembre 2025]** Le 5 novembre 2025, Cisco a mis a jour son billet de blogue initialement publié le 25 septembre 2025 (cf. section Documentation). L'éditeur déclare avoir connaissance d'une nouvelle attaque, affectant les équipements ASA et FTD vulnérables, qui cause un déni...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-010/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Campagne de notifications de menace envoyée par Apple (11 septembre 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-010/",
+      "date": "2025-09-11T00:00:00.000Z",
+      "summary": "Depuis 2021, Apple envoie des campagnes de notifications aux individus ciblés par des attaques menées à l’aide de logiciels espions. Ces logiciels, tels que Pegasus, Predator, Graphite ou Triangulation sont particulièrement sophistiqués et difficiles à détecter. Ces attaques complexes ciblent des...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-012/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Citrix NetScaler ADC et NetScaler Gateway (26 août 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-012/",
+      "date": "2025-08-26T00:00:00.000Z",
+      "summary": "Le 26 août 2025, Citrix a publié un bulletin de sécurité (cf. section Documentation) concernant, entre autres, la vulnérabilité CVE-2025-7775. Celle-ci permet une exécution de code arbitraire à distance et affecte toutes les versions de Citrix NetScaler ADC et NetScaler Gateway, dans certaines...",
+      "categories": [],
+      "cves": [
+        "CVE-2025-7775"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-011/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Incidents de sécurité dans les pare-feux SonicWall (05 août 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-011/",
+      "date": "2025-08-05T00:00:00.000Z",
+      "summary": "[Mise à jour du 7 août 2025] Le 6 août 2025, SonicWall a remplacé une partie de son communiqué initial pour indiquer que les incidents de sécurité évoqués étaient vraisemblablement corrélés à la vulnérabilité CVE-2024-40766. Celle-ci a fait l'objet d'un bulletin de sécurité, SNWLID-2024-0015 (cf....",
+      "categories": [],
+      "cves": [
+        "CVE-2024-40766"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-010/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Multiples vulnérabilités dans Microsoft SharePoint (21 juillet 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-010/",
+      "date": "2025-07-21T00:00:00.000Z",
+      "summary": "**[Mise à jour du 23 juillet 2025]** Le 20 juillet 2025, Microsoft a publié des correctifs pour une vulnérabilité de type limitation insuffisante d'un chemin d'accès à un répertoire restreint, aussi appelé *path traversal*, affectant SharePoint Enterprise Server 2016, SharePoint Server 2019 et...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-009/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et NetScaler Gateway (01 juillet 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-009/",
+      "date": "2025-07-01T00:00:00.000Z",
+      "summary": "**[Mise à jour du 17 juillet 2025]** L'éditeur a publié un lien contenant une méthode d'évaluation permettant d'identifier des tentatives d'exploitation dans les journaux applicatifs et systèmes [12]. **[Mise à jour du 7 juillet 2025]** Le 17 juin 2025, Citrix a publié un bulletin de sécurité...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-009/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "🇬🇧 Houken seeking a path by living on the edge with zero-days (01 juillet 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-009/",
+      "date": "2025-07-01T00:00:00.000Z",
+      "summary": "In September 2024, ANSSI observed an attack campaign seeking initial access to French entities’ networks through the exploitation of several zero-day vulnerabilities on Ivanti Cloud Service Appliance (CSA) devices. French organizations from governmental, telecommunications, media, finance, and...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-008/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans Roundcube (05 juin 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-008/",
+      "date": "2025-06-05T00:00:00.000Z",
+      "summary": "[Mise à jour du 06 juin 2025] Une preuve de concept est publiquement disponible. [Publication initiale] Le 01 juin 2025, Roundcube a publié des correctifs concernant une vulnérabilité critique affectant son portail de messagerie ainsi que tous les produits l'incluant (par exemple cPanel et...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-008/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Opération ENDGAME 2025 (23 mai 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-008/",
+      "date": "2025-05-23T00:00:00.000Z",
+      "summary": "Entre le 19 et le 23 mai 2025, de nouvelles actions de démantèlement ont été menées contre plusieurs infrastructures liées à des codes cybercriminels. Ces actions ont été réalisées dans le cadre de l’opération de coopération judiciaire internationale ENDGAME lancée en /cti/CERTFR-2024-CTI-004/ et...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-007/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Ivanti Endpoint Manager Mobile (EPMM) (14 mai 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-007/",
+      "date": "2025-05-14T00:00:00.000Z",
+      "summary": "[Mise à jour du 15 mai 2025] Une preuve de concept est publiquement disponible sur Internet. [Publication initiale] Le 13 mai 2025, Ivanti a publié deux avis de sécurité concernant les vulnérabilités CVE-2025-4427 et CVE-2025-4428. L'utilisation combinée de ces deux vulnérabilités permet...",
+      "categories": [],
+      "cves": [
+        "CVE-2025-4427",
+        "CVE-2025-4428"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-006/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans les produits Fortinet (13 mai 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-006/",
+      "date": "2025-05-13T00:00:00.000Z",
+      "summary": "Le 13 mai 2025, Fortinet a publié un avis de sécurité concernant la vulnérabilité CVE-2025-32756. Celle-ci permet à un attaquant non authentifié d'exécuter du code arbitraire à distance. L'éditeur indique que cette vulnérabilité est activement exploitée. Les exploitations constatées jusqu'ici...",
+      "categories": [],
+      "cves": [
+        "CVE-2025-32756"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-007/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "🇬🇧 Targeting and compromise of french entities using the APT28 intrusion set (29 avril 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-007/",
+      "date": "2025-04-29T00:00:00.000Z",
+      "summary": "Version française: 🇫🇷 ANSSI and its partners at the Cyber Crisis Coordination Center (C4) have observed informatic attacks conducted by APT28 operators between 2021 and 2024. The attackers are publicly linked to the Russian Federation. The APT28 intrusion set has been used againt various entities...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-006/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Ciblage et compromission d'entités françaises au moyen du mode opératoire d'attaque APT28 (29 avril 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-006/",
+      "date": "2025-04-29T00:00:00.000Z",
+      "summary": "English version : 🇬🇧 L’ANSSI et ses partenaires du Centre de coordination des crises cyber (C4) ont observé entre 2021 et 2024 des attaques informatiques conduites par les opérateurs d’APT28, qui sont publiquement rattachés par différentes sources à la Russie. Le mode opératoire d’attaque APT28 a...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-005/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans SAP NetWeaver (28 avril 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-005/",
+      "date": "2025-04-28T00:00:00.000Z",
+      "summary": "Le 24 avril 2025, SAP a publié un bulletin de sécurité relatif à la vulnérabilité CVE-2025-31324 qui permet l'exécution de code arbitraire à distance pour un utilisateur non authentifié. Cette vulnérabilité est provoquée par un contournement de la politique de sécurité qui permet de télécharger...",
+      "categories": [],
+      "cves": [
+        "CVE-2025-31324"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-005/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Transports urbains - État de la menace informatique (17 avril 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-005/",
+      "date": "2025-04-17T00:00:00.000Z",
+      "summary": "La menace à l’encontre des entités des transports urbains cible des entreprises de toutes les tailles dans le monde entier qui opèrent différents modes de transport. La convergence de technologies industrielles et bureautique, l’interconnexion de réseaux informatiques de grande taille composés...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-004/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Activités de post-exploitation dans Fortinet FortiGate (11 avril 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-004/",
+      "date": "2025-04-11T00:00:00.000Z",
+      "summary": "Fortinet a publié le 10 avril 2025 un billet de blogue [1] indiquant l'utilisation d'une technique de post-exploitation qui permet une atteinte à la confidentialité des données de l'ensemble du système des équipements Fortigate affectés. Cette technique repose sur l'utilisation d'un lien...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-003/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans les produits Ivanti (03 avril 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-003/",
+      "date": "2025-04-03T00:00:00.000Z",
+      "summary": "**\\[Mise à jour du 11 avril 2025\\]** Le CERT-FR a connaissance d'une preuve de concept publique permettant de provoquer une exécution de code arbitraire à distance. **[Mise à jour du 04 avril 2025]** Le CERT-FR a connaissance d'une preuve de concept publique permettant de provoquer un arrêt du...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-004/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "🇬🇧 Cyber Threat Overview 2024 (11 mars 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-004/",
+      "date": "2025-03-11T00:00:00.000Z",
+      "summary": "Version française: 🇫🇷 In this fourth edition of the Cyber Threat Overview, The French Cybersecurity Agency (ANSSI) addresses prevalent cybersecurity threats and the pivotal incidents which occurred in 2024. In line with the previous years, ANSSI estimates that attackers associated with the...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-003/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Panorama de la cybermenace 2024 (11 mars 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-003/",
+      "date": "2025-03-11T00:00:00.000Z",
+      "summary": "English version : 🇬🇧 Dans cette quatrième édition du panorama de la menace, l’Agence nationale de la sécurité des systèmes d’information (ANSSI) revient sur les grandes tendances de la menace informatique ainsi que sur les éléments et incidents marquants dont elle a eu connaissance en 2024. Dans...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-002/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Collectivités territoriales - Synthèse de la menace (24 février 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-002/",
+      "date": "2025-02-24T00:00:00.000Z",
+      "summary": "Les collectivités territoriales gèrent de nombreux services selon leurs compétences, en matière administrative et régalienne, mais également sur de nombreux aspects de la vie sociale, territoriale et économique d’un territoire. Les conséquences d’attaques informatiques peuvent donc être majeures...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-001/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Secteur du cloud - État de la menace informatique (20 février 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2025-CTI-001/",
+      "date": "2025-02-20T00:00:00.000Z",
+      "summary": "Le *Cloud computing*, devenu incontournable pour les secteurs public et privé, favorise la transformation numérique mais offre également de nouvelles opportunités d’attaques et problématiques de sécurité pour les organisations qui l’utilisent. L'ANSSI observe une augmentation des attaques contre...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-002/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans les produits Fortinet (14 janvier 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-002/",
+      "date": "2025-01-14T00:00:00.000Z",
+      "summary": "\\[Mise à jour du 28 janvier 2025\\] Une preuve de concept permettant l'exploitation de cette vulnérabilité est disponible publiquement. Le 14 janvier 2025, Fortinet a publié un avis de sécurité concernant la vulnérabilité critique CVE-2024-55591 affectant FortiOS et FortiProxy. Elle permet à un...",
+      "categories": [],
+      "cves": [
+        "CVE-2024-55591"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-001/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans les produits Ivanti (09 janvier 2025)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2025-ALE-001/",
+      "date": "2025-01-09T00:00:00.000Z",
+      "summary": "Une vulnérabilité jour-zéro de type débordement de pile a été découverte dans Ivanti Connect Secure (ICS), Policy Secure (IPS), Neurons for Zero Trust Access (ZTA) gateways. Cette vulnérabilité, d'identifiant CVE-2025-0282, permet à un attaquant non authentifié de provoquer une exécution de code...",
+      "categories": [],
+      "cves": [
+        "CVE-2025-0282"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-011/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Secteur de l'eau : état de la menace informatique (28 novembre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-011/",
+      "date": "2024-11-28T00:00:00.000Z",
+      "summary": "En 2024, le secteur de l'eau a fait l'objet d'une attention particulière des attaquants informatiques notamment dans le contexte des Jeux Olympiques et Paralympiques 2024 et de l'importance portée à la qualité de l'eau de la Seine. A plusieurs reprises au cours de l'année, des groupes...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-015/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Multiples vulnérabilités sur l'interface d'administration des équipements Palo Alto Networks (15 novembre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-015/",
+      "date": "2024-11-15T00:00:00.000Z",
+      "summary": "Le 8 novembre 2024, Palo Alto Networks a publié un avis de sécurité relatif à une vulnérabilité critique dans certains pare-feux Palo Alto Networks. Elle permet à un attaquant non authentifié d'exécuter du code arbitraire à distance sur l'interface d'administration des équipements. L'éditeur...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-010/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Secteur de la santé - État de la menace informatique (07 novembre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-010/",
+      "date": "2024-11-07T00:00:00.000Z",
+      "summary": "Le secteur de la santé est un secteur hautement critique, qui intègre une typologie d’acteurs variée allant des acteurs liés à la gestion du système de santé, aux prestataires de soins, en passant par les industriels de produits de santé et les fournisseurs et prestataires pour le secteur de la...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-014/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Multiples vulnérabilités dans Fortinet FortiManager (23 octobre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-014/",
+      "date": "2024-10-23T00:00:00.000Z",
+      "summary": "**[Mise à jour du 14 janvier 2025]** **Publication des correctifs** Le 14 janvier 2025, Fortinet a publié un avis de sécurité relatif à la vulnérabilité CVE-2024-50566 qui correspond à la vulnérabilité de type jour-zéro pour laquelle une preuve de concept a été publiée en novembre 2024. Des...",
+      "categories": [],
+      "cves": [
+        "CVE-2024-50566"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-013/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Exploitations de vulnérabilités dans Ivanti Cloud Services Appliance (CSA) (22 octobre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-013/",
+      "date": "2024-10-22T00:00:00.000Z",
+      "summary": "Ivanti a publié plusieurs avis de sécurité sur des vulnérabilités affectant CSA qui sont activement exploitées : * le 10 septembre 2024, Ivanti a publié un avis de sécurité concernant la vulnérabilité CVE-2024-8190 qui permet à un attaquant, authentifié en tant qu'administrateur, d'exécuter du...",
+      "categories": [],
+      "cves": [
+        "CVE-2024-8190"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-012/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilités affectant OpenPrinting CUPS (27 septembre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-012/",
+      "date": "2024-09-27T00:00:00.000Z",
+      "summary": "**[Mise à jour du 10 octobre 2024]** Le 28 septembre 2024, Elastic Security Labs a publié des règles de détection au format propriétaire de l'éditeur (cf. section Documentation), qui sont confirmées par les analyses du CERT-FR pour la détection des attaques connues. **[Publication initiale]** De...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-009/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Exfiltration de données du secteur social - Retour d’expérience du CERT-FR (24 septembre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-009/",
+      "date": "2024-09-24T00:00:00.000Z",
+      "summary": "L’année 2023 et le début de l’année 2024 ont été marqués par de nombreux incidents ciblant des entités du secteur social gérant des données à caractère personnel. Compte tenu des impacts qu’ont eu ces exfiltrations de données, le CERT-FR propose un retour d’expérience sur la gestion de ces...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-011/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans SonicWall (10 septembre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-011/",
+      "date": "2024-09-10T00:00:00.000Z",
+      "summary": "Le 22 août 2024, Sonicwall a publié un correctif concernant la vulnérabilité critique CVE-2024-40766 affectant les pare-feux Sonicwall génération 5, 6 et 7. Cette vulnérabilité, de type contrôle d'accès défaillant, permet à un attaquant de provoquer un déni de service à distance, une atteinte à...",
+      "categories": [],
+      "cves": [
+        "CVE-2024-40766"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-008/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Organismes de recherche et think tanks - État de la menace informatique (02 septembre 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-008/",
+      "date": "2024-09-02T00:00:00.000Z",
+      "summary": "Le secteur de la recherche et des *think tanks* couvre un périmètre large et hétéroclite. Celui-ci comprend des entités publiques et privées de toute nature, dont certaines peuvent être des fondations, des organisations internationales ou des associations. Ces entités sont ciblées par un vaste...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-010/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Roundcube (09 août 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-010/",
+      "date": "2024-08-09T00:00:00.000Z",
+      "summary": "Le 4 août 2024, Roundcube a publié des correctifs concernant les vulnérabilités critiques CVE-2024-42008 et CVE-2024-42009 affectant son serveur de courriel. Ces vulnérabilités permettent des injections de code indirectes à distance (XSS) qui peuvent, par exemple, conduire à la récupération du...",
+      "categories": [],
+      "cves": [
+        "CVE-2024-42008",
+        "CVE-2024-42009"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-007/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Codes malveillants utilisés à des fins destructrices (11 juillet 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-007/",
+      "date": "2024-07-11T00:00:00.000Z",
+      "summary": "Les attaques à but de déstabilisation constituent des menaces informatiques qui visent de manière récurrente les grands évènements sportifs. Si elles prennent souvent la forme d’attaques par déni de service distribué (DDoS) ou de défigurations de sites Web, elles peuvent aussi passer par des...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-009/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans OpenSSH (01 juillet 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-009/",
+      "date": "2024-07-01T00:00:00.000Z",
+      "summary": "Le 1 juillet 2024, OpenSSH a publié un avis de sécurité concernant la vulnérabilité critique CVE-2024-6387. Cette vulnérabilité permet à un attaquant non authentifié d'exécuter du code arbitraire à distance avec les privilèges *root*. L'éditeur précise que les versions 8.5p1 à 9.7p1 sont...",
+      "categories": [],
+      "cves": [
+        "CVE-2024-6387"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-006/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "🇬🇧 Malicious activities linked to the Nobelium intrusion set (19 juin 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-006/",
+      "date": "2024-06-19T00:00:00.000Z",
+      "summary": "Several cyberattacks against French diplomatic entities can be linked to the Nobelium intrusion set. Nobelium is an intrusion set active since at least October 2020, used against high-value targets, most likely for espionage purposes. Western diplomatic entities, such as embassies and Ministries...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-005/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Failles sur les équipements de sécurité - Retour d'expérience du CERT-FR (12 juin 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-005/",
+      "date": "2024-06-12T00:00:00.000Z",
+      "summary": "L'année 2023 et le début de l'année 2024 ont été marqués par de nombreux incidents concernant des équipements de sécurité présents notamment en bordure de réseau. Ces incidents ont pour origine l'exploitation d'une ou plusieurs vulnérabilités critiques dans des pare-feux, passerelles VPN ou...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-004/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Opération ENDGAME (30 mai 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-004/",
+      "date": "2024-05-30T00:00:00.000Z",
+      "summary": "Entre le 27 et le 29 mai 2024, une opération de démantèlement de plusieurs infrastructures liées à des codes cybercriminels a été menée dans le cadre d’une coopération judiciaire internationale impliquant les autorités allemandes, néerlandaises, danoises, françaises, britanniques et américaines....",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-003/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Grands évènements sportifs en France – Évaluation de la menace 2024 (17 avril 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-003/",
+      "date": "2024-04-17T00:00:00.000Z",
+      "summary": "Depuis plus d’une décennie, les compétitions sportives internationales majeures font régulièrement l’objet d’attaques informatiques. Ces évènements, en raison de l’intérêt qu’ils suscitent chez des centaines de millions de personnes et des flux financiers importants qu’ils génèrent, constituent...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-006/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "[MàJ] Vulnérabilité dans Palo Alto Networks GlobalProtect (12 avril 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2024-ALE-006/",
+      "date": "2024-04-12T00:00:00.000Z",
+      "summary": "\\[Mise à jour du 10 mai 2024\\] Le CERT-FR est intervenu pour le traitement d'une compromission par rançongiciel au sein d'une entité française. Dans le cadre de cette attaque, la vulnérabilité a été exploitée pour ensuite réaliser une latéralisation dans le système d'information de la victime et...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-001/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Panorama de la cybermenace 2023 (27 février 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-001/",
+      "date": "2024-02-27T00:00:00.000Z",
+      "summary": "English version : 🇬🇧 Cette troisième édition du Panorama de la cybermenace décrit les principales tendances constatées en 2023 par l’Agence nationale de la sécurité des systèmes d’information (ANSSI). Ce document se concentre sur les intentions des attaquants, leurs capacités et les opportunités...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-002/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "🇬🇧 Cyber Threat Overview 2023 (27 février 2024)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2024-CTI-002/",
+      "date": "2024-02-27T00:00:00.000Z",
+      "summary": "Version française: 🇫🇷 This third edition of the Cyber Threat Overview describes the main trends observed by the French National Cyber Security Agency (ANSSI) in 2023. This document focuses on the motivations of attackers, their capabilities and the opportunities they exploit to compromise...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-010/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "État de la menace ciblant le secteur des télécommunications (18 décembre 2023)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-010/",
+      "date": "2023-12-18T00:00:00.000Z",
+      "summary": "Le secteur des télécommunications intègre une typologie d’acteurs variée allant des opérateurs de communication électroniques (OCE) aux équipementiers, en passant par les hébergeurs web ou les points d’interconnexion Internet. Secteur central pour beaucoup d’autres, le secteur des...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-009/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Campagnes d'attaques du mode opératoire APT28 depuis 2021 (26 octobre 2023)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-009/",
+      "date": "2023-10-26T00:00:00.000Z",
+      "summary": "Lors de ses investigations, l'ANSSI a analysé plusieurs chaînes de compromission du mode opératoire d'attaque (MOA) APT28 utilisées à des fins d'espionnage. Certaines campagnes ont été dirigées contre des organisations françaises, dont des entités gouvernementales, des entreprises, des...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-008/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Synthèse de la menace ciblant les collectivités territoriales (23 octobre 2023)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-008/",
+      "date": "2023-10-23T00:00:00.000Z",
+      "summary": "Les collectivités territoriales gèrent de nombreux services selon leurs compétences, en matière administrative et régalienne, mais également sur de nombreux aspects de la vie sociale, territoriale et économique d’un territoire. Les conséquences d’attaques informatiques peuvent donc être majeures...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-007/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "FIN 12 : Un groupe cybercriminel aux multiples rançongiciels (18 septembre 2023)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-007/",
+      "date": "2023-09-18T00:00:00.000Z",
+      "summary": "En mars 2023, l'ANSSI a signalé au centre hospitalier universitaire de Brest la compromission de l'un de ses serveurs. La réactivité de l'établissement de santé a permis d'isoler rapidement le système d'information (SI) d'Internet et d'entraver la progression du mode opératoire des attaquants...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-006/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Démantèlement du botnet Qakbot (15 septembre 2023)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-006/",
+      "date": "2023-09-15T00:00:00.000Z",
+      "summary": "Contexte Le Bureau fédéral d'enquête américain (FBI) a effectué le 26 août 2023 une opération de démantèlement et de désinfection du réseau de machines zombies ou botnet Qakbot (aussi appelé Qbot), en lien avec les autorités allemandes, néerlandaises, britanniques et françaises. En France,...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-005/",
+      "feed": "menaces",
+      "source": "CERT-FR",
+      "title": "Grands évènements sportifs - Évaluation de la menace 2023 (30 août 2023)",
+      "link": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2023-CTI-005/",
+      "date": "2023-08-30T00:00:00.000Z",
+      "summary": "Depuis plus d’une décennie, les compétitions sportives internationales majeures font régulièrement l’objet d’attaques informatiques. Ces évènements, en raison de l’intérêt qu’ils suscitent chez des centaines de millions de personnes et des flux financiers importants qu’ils génèrent, constituent...",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2015-ALE-009/",
+      "feed": "alertes",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Apple Mac OS X (24 juillet 2015)",
+      "link": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2015-ALE-009/",
+      "date": "2015-07-24T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Apple Mac OS X. Elle permet à un attaquant de provoquer une élévation de privilèges.",
+      "categories": [],
+      "cves": []
+    }
+  ]
+}
