@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T10:26:13.741Z",
+  "generatedAt": "2026-11-20T17:56:03.225Z",
   "feeds": [
     {
       "id": "alertes",
@@ -82,6 +82,86 @@
   },
   "items": [
     {
+      "id": "https://www.it-connect.fr/?p=119908",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Windows 11 KB5132057 : la nouvelle fonction de recherche exécute des actions !",
+      "link": "https://www.it-connect.fr/windows-11-kb5132057-nouvelle-recherche-connexion-web/",
+      "date": "2026-11-20T15:34:06.000Z",
+      "summary": "KB5132057 : nouvelle recherche Windows 11, boîte Exécuter modernisée et connexion web sur les postes hybrides. Voici l'essentiel à savoir sur cette mise à jour. Le post Windows 11 KB5132057 : la nouvelle fonction de recherche exécute des actions ! a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "Microsoft",
+        "Mise à jour",
+        "Windows 11"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119844",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Intune : les fenêtres de maintenance pour Windows Update arrivent enfin !",
+      "link": "https://www.it-connect.fr/intune-fenetres-de-maintenance-windows-update/",
+      "date": "2026-11-20T15:30:00.000Z",
+      "summary": "Intune prend enfin en charge les fenêtres de maintenance pour Windows Update, un an après leur annonce à Ignite 2025. Voici ce qu'il faut savoir. Le post Intune : les fenêtres de maintenance pour Windows Update arrivent enfin ! a été publié sur IT-Connect .",
+      "categories": [
+        "Entreprise",
+        "intune",
+        "Microsoft",
+        "Mise à jour",
+        "Windows"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=57003",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€",
+      "link": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
+      "date": "2026-11-20T15:00:19.000Z",
+      "summary": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels. Le post Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€ a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=118122",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Mon top 5 des commandes Nmap que vous devez connaître",
+      "link": "https://www.it-connect.fr/mon-top-5-des-commandes-nmap-que-vous-devez-connaitre/",
+      "date": "2026-11-20T14:00:00.000Z",
+      "summary": "Découverte d’hôtes, détection de versions, audit SMB et HTTP, scan complet : 5 commandes Nmap pour cartographier et auditer un réseau comme un pentester. Le post Mon top 5 des commandes Nmap que vous devez connaître a été publié sur IT-Connect .",
+      "categories": [
+        "Blue Team",
+        "Commandes et Système",
+        "Cybersécurité",
+        "Red Team",
+        "Nmap"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119847",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "FastUnlock : une faille zero-day Windows 11 contourne l’écran de verrouillage et menace BitLocker",
+      "link": "https://www.it-connect.fr/fastunlock-zero-day-windows-11-bitlocker-narrateur/",
+      "date": "2026-11-20T11:06:58.000Z",
+      "summary": "FastUnlock, nouvelle zero-day publiée par Nightmare Eclipse, contourne l'écran de verrouillage de Windows 11 via le Narrateur et menace BitLocker. Le post FastUnlock : une faille zero-day Windows 11 contourne l’écran de verrouillage et menace BitLocker a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "BitLocker",
+        "Cybersécurité",
+        "Vulnérabilité",
+        "Windows"
+      ],
+      "cves": []
+    },
+    {
       "id": "https://www.it-connect.fr/?p=119831",
       "feed": "itconnect",
       "source": "IT-Connect",
@@ -96,6 +176,204 @@
         "Synology",
         "Vulnérabilité"
       ],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Moodle (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Citrix (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Tenable Security Center (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans les produits Palo Alto Networks (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1585/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Metabase (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1585/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Metabase. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans KeyCloak (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Apache Tomcat (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Mattermost (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1589/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Moxa (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1589/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Siemens Industrial Edge (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Siemens Industrial Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans GitLab (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à l'intégrité des données et un déni de service.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
+      "date": "2026-11-20T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi). Google et Mandiant indiquent que la vulnérabilité...",
+      "categories": [],
       "cves": []
     },
     {
@@ -395,87 +673,6 @@
       ]
     },
     {
-      "id": "https://www.it-connect.fr/?p=119605",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Microsoft Ignite 2026 : les nouveautés Intune autour du poste de travail Windows",
-      "link": "https://www.it-connect.fr/ignite-nouveautes-intune-windows-poste-de-travail/",
-      "date": "2026-11-18T16:36:42.000Z",
-      "summary": "Ignite 2026 : Microsoft dévoile des nouveautés Intune et Windows pour le poste de travail, mais presque toutes sont en préversion. Voici ce qu'il faut retenir. Le post Microsoft Ignite 2026 : les nouveautés Intune autour du poste de travail Windows a été publié sur IT-Connect .",
-      "categories": [
-        "Entreprise",
-        "intune",
-        "Microsoft",
-        "Windows"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119620",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Windows Server 2028 : Microsoft durcit Server Core par défaut, pour plus de sécurité",
-      "link": "https://www.it-connect.fr/windows-server-2028-server-core-durci-par-defaut/",
-      "date": "2026-11-18T15:59:12.000Z",
-      "summary": "Avec Windows Server 2028, Server Core est durci dès l'installation (SMB, TLS, WinRM, RDP, etc.). Ce qui change et comment le gérer, voici ce qu'il faut savoir. Le post Windows Server 2028 : Microsoft durcit Server Core par défaut, pour plus de sécurité a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "Cybersécurité",
-        "Microsoft",
-        "Windows Server",
-        "Windows Server 2028"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119474",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures",
-      "link": "https://www.it-connect.fr/fbi-artex-framework-ia-cyberattaques/",
-      "date": "2026-11-18T15:45:00.000Z",
-      "summary": "Le FBI alerte sur ARTEX, un framework de pentest piloté par l'IA détourné par des pirates. Certaines intrusions atteignent un accès admin en moins de 3 heures. Le post FBI : avec ARTEX, certaines intrusions atteignent un accès privilégié en moins de trois heures a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "IA"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119547",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "PowerShell 7 va débarquer dans Windows : les jours de Windows PowerShell 5.1 sont comptés",
-      "link": "https://www.it-connect.fr/powershell-7-integre-windows-powershell-5-1-deprecie/",
-      "date": "2026-11-18T10:31:17.000Z",
-      "summary": "PowerShell 7 sera intégré à la prochaine version de Windows et Windows PowerShell 5.1 est déprécié. Calendrier et limites du MSIX : voici ce qu'il faut savoir. Le post PowerShell 7 va débarquer dans Windows : les jours de Windows PowerShell 5.1 sont comptés a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "Microsoft",
-        "Powershell",
-        "Windows"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119524",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc.",
-      "link": "https://www.it-connect.fr/java4shell-faille-critique-java-openjdk/",
-      "date": "2026-11-18T08:44:52.000Z",
-      "summary": "La faille Java4Shell (CVE-2026-114938) menace Java 17 à 27 sur certains CPU, et elle permet une exécution de code à distance sans authentification. Le post La faille Java4Shell (CVE-2026-114938) menace Keycloak, Jira, Jenkins, etc. a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "Vulnérabilité"
-      ],
-      "cves": [
-        "CVE-2026-114938"
-      ]
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-016/",
       "feed": "alertes",
       "source": "CERT-FR",
@@ -501,61 +698,6 @@
         "CVE-2026-123633",
         "CVE-2026-123007"
       ]
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Tenable (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1556/",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1557/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Netgate pfSense (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1557/",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Netgate pfSense. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1558/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans FreeBSD (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1558/",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans FreeBSD. Elle permet à un attaquant de provoquer une atteinte à la confidentialité des données et un déni de service.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1559/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Google Chrome (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1559/",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Google Chrome. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1560/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Mozilla Firefox (18 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1560/",
-      "date": "2026-11-18T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mozilla Firefox. Elles permettent à un attaquant de provoquer une élévation de privilèges et un problème de sécurité non spécifié par l'éditeur.",
-      "categories": [],
-      "cves": []
     },
     {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1561/",
@@ -631,149 +773,6 @@
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1567/",
       "date": "2026-11-18T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits F5. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Mitel MiCollab (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1548/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans GLPI (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1548/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans GLPI. Elle permet à un attaquant de provoquer une atteinte à l'intégrité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1549/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans Axis OS (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1549/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Axis OS. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1550/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Tenable Identity Exposure (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1550/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Identity Exposure. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans Juniper Networks Junos OS Evolved (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1551/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Juniper Networks Junos OS Evolved. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1552/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans GitLab (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1552/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une falsification de requêtes côté serveur (SSRF).",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Typo3 (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1553/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Typo3. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1554/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans OpenSSL (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1554/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1555/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Microsoft SharePoint (17 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1555/",
-      "date": "2026-11-17T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft SharePoint. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et une élévation de privilèges.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans VMware Tanzu (16 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1543/",
-      "date": "2026-11-16T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans MongoDB (16 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1544/",
-      "date": "2026-11-16T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans Citrix App Layering (16 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1545/",
-      "date": "2026-11-16T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Citrix App Layering. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Microsoft Edge (16 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1546/",
-      "date": "2026-11-16T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Microsoft Edge. Elles permettent à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
       "categories": [],
       "cves": []
     },
