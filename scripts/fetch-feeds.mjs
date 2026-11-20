@@ -3,6 +3,7 @@
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { notifyNew } from './notify.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const feeds = JSON.parse(await readFile(resolve(root, 'config/feeds.json'), 'utf8'));
@@ -68,6 +69,7 @@ async function main() {
   await mkdir(dirname(outFile), { recursive: true });
   await writeFile(outFile, JSON.stringify({ generatedAt: new Date().toISOString(), feeds, status, items }, null, 2) + '\n');
   console.log(`→ ${items.length} articles écrits dans data/feeds.json`);
+  await notifyNew({ items, previousItems: previous.items || [], feeds });
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) main().catch(e => { console.error(e); process.exit(1); });

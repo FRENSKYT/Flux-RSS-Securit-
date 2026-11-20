@@ -1,6 +1,18 @@
 [
-  { "id": "alertes",   "label": "Alertes",    "source": "CERT-FR", "url": "https://cert.cyber.gouv.fr/alerte/feed/" },
-  { "id": "menaces",   "label": "Menaces",    "source": "CERT-FR", "url": "https://cert.cyber.gouv.fr/cti/feed/" },
-  { "id": "securite",  "label": "Sécurité",   "source": "CERT-FR", "url": "https://cert.cyber.gouv.fr/avis/feed/" },
-  { "id": "itconnect", "label": "IT-Connect", "source": "IT-Connect", "url": "https://www.it-connect.fr/feed/" }
+  {
+    "id": "alertes", "label": "Alertes", "source": "CERT-FR", "url": "https://cert.cyber.gouv.fr/alerte/feed/",
+    "notify": { "title": "Alerte CERT-FR", "one": "Une nouvelle alerte a été publiée.", "many": "{n} nouvelles alertes ont été publiées.", "priority": 5, "tags": ["rotating_light"] }
+  },
+  {
+    "id": "menaces", "label": "Menaces", "source": "CERT-FR", "url": "https://cert.cyber.gouv.fr/cti/feed/",
+    "notify": { "title": "Menace CERT-FR", "one": "Une nouvelle menace a été publiée.", "many": "{n} nouvelles menaces ont été publiées.", "priority": 4, "tags": ["detective"] }
+  },
+  {
+    "id": "securite", "label": "Sécurité", "source": "CERT-FR", "url": "https://cert.cyber.gouv.fr/avis/feed/",
+    "notify": { "title": "Avis de sécurité CERT-FR", "one": "Un nouvel avis de sécurité a été publié.", "many": "{n} nouveaux avis de sécurité ont été publiés.", "priority": 3, "tags": ["shield"] }
+  },
+  {
+    "id": "itconnect", "label": "IT-Connect", "source": "IT-Connect", "url": "https://www.it-connect.fr/feed/",
+    "notify": { "title": "IT-Connect", "one": "Un nouvel article a été publié.", "many": "{n} nouveaux articles ont été publiés.", "priority": 2, "tags": ["newspaper"] }
+  }
 ]
