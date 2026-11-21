@@ -39,7 +39,7 @@ pour chaque nouvel article. Les notifications sont regroupées au-delà de 3 nou
 | Alertes    | 🚨 Alerte CERT-FR — « Une nouvelle alerte a été publiée. » | urgente |
 | Menaces    | 🕵️ Menace CERT-FR — « Une nouvelle menace a été publiée. » | haute |
 | Sécurité   | 🛡️ Avis de sécurité CERT-FR — « Un nouvel avis de sécurité a été publié. » | normale |
-| IT-Connect | 📰 IT-Connect — « Un nouvel article a été publié. » | basse (silencieuse) |
+| IT-Connect | 📰 IT-Connect — « Un nouvel article a été publié. » | normale |
 
 Chaque notification contient le titre, un résumé, les CVE et un bouton « Lire l'article ».
 Textes, emojis et priorités se modifient dans `config/feeds.json` (bloc `notify`).
@@ -54,6 +54,22 @@ Textes, emojis et priorités se modifient dans `config/feeds.json` (bloc `notify
 4. Test : *Actions → Mise à jour des flux RSS → Run workflow*, cochez « Envoyer une notification de test ».
 
 Options avancées : `NTFY_SERVER` (variable, serveur ntfy auto-hébergé) et `NTFY_TOKEN` (secret, sujet protégé).
+
+## Vérification toutes les 5 minutes (cron-job.org)
+
+Les tâches planifiées de GitHub sont peu fiables : en pratique elles ne tournent parfois que toutes les ~6 heures.
+Pour une vérification régulière, un service externe gratuit déclenche la tâche :
+
+1. GitHub → photo de profil → *Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token*.
+   Dépôt : uniquement `Flux-RSS-Securit-` ; permission **Actions : Read and write** ; expiration au choix. Copiez le jeton.
+2. Sur [cron-job.org](https://cron-job.org), créez un compte puis un *cronjob* :
+   - URL : `https://api.github.com/repos/FRENSKYT/Flux-RSS-Securit-/actions/workflows/update-feeds.yml/dispatches`
+   - Planification : toutes les 5 minutes
+   - *Advanced* → méthode **POST**, en-têtes `Authorization: Bearer <jeton>` et `Accept: application/vnd.github+json`,
+     corps `{"ref":"main"}`
+3. Un appel réussi renvoie le code **204**.
+
+Le fichier `data/feeds.json` n'est commité que lorsqu'il change, pour ne pas multiplier les commits.
 
 ## Mise en ligne (GitHub Pages)
 

@@ -66,9 +66,15 @@ async function main() {
     }
   }
   items.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
-  await mkdir(dirname(outFile), { recursive: true });
-  await writeFile(outFile, JSON.stringify({ generatedAt: new Date().toISOString(), feeds, status, items }, null, 2) + '\n');
-  console.log(`→ ${items.length} articles écrits dans data/feeds.json`);
+  // N'écrit le fichier que si le contenu a changé (évite un commit et un déploiement à chaque vérification).
+  const same = JSON.stringify({ feeds, status, items }) === JSON.stringify({ feeds: previous.feeds, status: previous.status, items: previous.items });
+  if (same) {
+    console.log(`→ Aucun changement (${items.length} articles).`);
+  } else {
+    await mkdir(dirname(outFile), { recursive: true });
+    await writeFile(outFile, JSON.stringify({ generatedAt: new Date().toISOString(), feeds, status, items }, null, 2) + '\n');
+    console.log(`→ ${items.length} articles écrits dans data/feeds.json`);
+  }
   await notifyNew({ items, previousItems: previous.items || [], feeds });
 }
 

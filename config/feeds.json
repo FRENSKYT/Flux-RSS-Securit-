@@ -13,6 +13,6 @@
   },
   {
     "id": "itconnect", "label": "IT-Connect", "source": "IT-Connect", "url": "https://www.it-connect.fr/feed/",
-    "notify": { "title": "IT-Connect", "one": "Un nouvel article a été publié.", "many": "{n} nouveaux articles ont été publiés.", "priority": 2, "tags": ["newspaper"] }
+    "notify": { "title": "IT-Connect", "one": "Un nouvel article a été publié.", "many": "{n} nouveaux articles ont été publiés.", "priority": 3, "tags": ["newspaper"] }
   }
 ]
