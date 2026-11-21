@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:37:54.562Z",
+  "generatedAt": "2026-11-21T20:42:01.156Z",
   "feeds": [
     {
       "id": "alertes",
@@ -55,7 +55,7 @@
         "title": "IT-Connect",
         "one": "Un nouvel article a été publié.",
         "many": "{n} nouveaux articles ont été publiés.",
-        "priority": 2,
+        "priority": 3,
         "tags": [
           "newspaper"
         ]
