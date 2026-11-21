@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T05:35:49.558Z",
+  "generatedAt": "2026-11-21T14:12:02.808Z",
   "feeds": [
     {
       "id": "alertes",
@@ -81,6 +81,22 @@
     }
   },
   "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=119116",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
+      "link": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
+      "date": "2026-11-21T12:00:00.000Z",
+      "summary": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir. Le post Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "Linux",
+        "macOS",
+        "Microsoft"
+      ],
+      "cves": []
+    },
     {
       "id": "https://www.it-connect.fr/?p=119908",
       "feed": "itconnect",
@@ -652,25 +668,6 @@
       "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "categories": [],
       "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119715",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX",
-      "link": "https://www.it-connect.fr/nginx2root-failles-cve-2026-123007-rce/",
-      "date": "2026-11-18T19:59:23.000Z",
-      "summary": "Failles NGINX : CVE-2026-123007 et CVE-2026-123633 permettent d'exécuter du code à distance via HTTP/2. Voici les versions à installer et comment vous protéger. Le post NGINX2Root : deux failles critiques permettent de prendre le contrôle d’un serveur NGINX a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "Nginx",
-        "Vulnérabilité"
-      ],
-      "cves": [
-        "CVE-2026-123007",
-        "CVE-2026-123633"
-      ]
     },
     {
       "id": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-016/",
