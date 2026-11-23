@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:42:01.156Z",
+  "generatedAt": "2026-11-23T11:00:10.811Z",
   "feeds": [
     {
       "id": "alertes",
@@ -81,6 +81,120 @@
     }
   },
   "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=119991",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques",
+      "link": "https://www.it-connect.fr/edge-lockdown-mode-webgl-webgpu/",
+      "date": "2026-11-23T10:30:00.000Z",
+      "summary": "Microsoft teste dans Edge Canary un Lockdown Mode qui bloque WebGL et WebGPU pour contrer les attaques ciblées. Voici ce qu'il faut savoir sur ce mode. Le post Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "Microsoft",
+        "Microsoft Edge"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119735",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction",
+      "link": "https://www.it-connect.fr/black-friday-geekom-notre-selection-doffres-sur-les-mini-pc-jusqua-30-de-reduction/",
+      "date": "2026-11-23T10:20:00.000Z",
+      "summary": "GEEKOM profite du Black Friday 2026 pour proposer des offres sur sa gamme de mini PC, des modèles du quotidien jusqu'aux machines les plus performantes. Le post Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans",
+        "Black Friday",
+        "Bon plan",
+        "GEEKOM",
+        "Hardware",
+        "mini PC"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119994",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité",
+      "link": "https://www.it-connect.fr/gta-6-pc-leonida-fuite-xbox-cyberleek/",
+      "date": "2026-11-23T09:23:56.000Z",
+      "summary": "Le projet open source Leonida veut faire tourner sous Windows la version Xbox de GTA 6 diffusée par Cyberleek. Mais le jeu ne démarre pas encore. Le post GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité a été publié sur IT-Connect .",
+      "categories": [
+        "Matériel",
+        "Cybersécurité",
+        "Gaming",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120007",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday Week : Mac mini M6, AirPods Pro 3, Alienware 15… le top des offres sur Amazon",
+      "link": "https://www.it-connect.fr/bon-plan-black-friday-week-amazon-2026/",
+      "date": "2026-11-23T09:17:30.000Z",
+      "summary": "Black Friday Week sur Amazon : Mac mini M6 à 889 €, Alienware 15 à 969 €, AirPods Pro 3 à 188 €... Voici les bons plans du lundi 23 novembre 2026. Le post Black Friday Week : Mac mini M6, AirPods Pro 3, Alienware 15… le top des offres sur Amazon a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans",
+        "Black Friday",
+        "Bon plan",
+        "Hardware",
+        "Matériel"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119556",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "J’ai testé ARTEX, ce framework offensif IA redouté par le FBI",
+      "link": "https://www.it-connect.fr/artex-framework-offensif-ia-cest-quoi/",
+      "date": "2026-11-23T08:24:44.000Z",
+      "summary": "ARTEX, framework de pentest autonome dopé à l'IA, fait l'objet d'une alerte du FBI. Fonctionnement, chronologie, test en lab et mesures de protection. Le post J’ai testé ARTEX, ce framework offensif IA redouté par le FBI a été publié sur IT-Connect .",
+      "categories": [
+        "Red Team",
+        "Cybersécurité",
+        "IA"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119551",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc.",
+      "link": "https://www.it-connect.fr/api-specops-authentication/",
+      "date": "2026-11-23T08:00:00.000Z",
+      "summary": "Specops lance l'API Specops Authentication : vérifiez l'identité d'un utilisateur depuis un chatbot IA ou ServiceNow avant toute action sensible. Le post Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc. a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "IA"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119986",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "GL.iNet : des pirates ont exploité le cloud GoodCloud pour infecter des routeurs et des KVM",
+      "link": "https://www.it-connect.fr/gl-inet-goodcloud-routeurs-kvm-malware/",
+      "date": "2026-11-23T07:49:13.000Z",
+      "summary": "GL.iNet confirme qu'une faille de son cloud GoodCloud a servi à installer un malware sur des routeurs et des KVM. Voici ce qu'il faut savoir. Le post GL.iNet : des pirates ont exploité le cloud GoodCloud pour infecter des routeurs et des KVM a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cloud",
+        "Cybersécurité",
+        "Malware",
+        "Réseau"
+      ],
+      "cves": []
+    },
     {
       "id": "https://www.it-connect.fr/?p=119116",
       "feed": "itconnect",
@@ -408,122 +522,6 @@
       ],
       "cves": [
         "CVE-2026-123890"
-      ]
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119756",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Mots de passe Active Directory : un attaquant les casse, un outil gratuit les repère avant lui",
-      "link": "https://www.it-connect.fr/specops-password-auditor-audit-active-directory/",
-      "date": "2026-11-19T17:00:00.000Z",
-      "summary": "Un mot de passe robuste peut déjà être compromis. On le prouve avec hashcat, puis on audite l’Active Directory gratuitement avec Specops Password Auditor. Le post Mots de passe Active Directory : un attaquant les casse, un outil gratuit les repère avant lui a été publié sur IT-Connect .",
-      "categories": [
-        "Sécurité & Durcissement AD",
-        "Active Directory",
-        "Cybersécurité",
-        "Mots de passe"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119589",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Black Friday TopAchat : jusqu’à 25 % de remise sur les écrans PC OLED et QHD",
-      "link": "https://www.it-connect.fr/bon-plan-ecrans-pc-black-friday-2026-topachat/",
-      "date": "2026-11-19T16:55:00.000Z",
-      "summary": "Black Friday chez TopAchat : jusqu'à 25 % de remise sur les écrans PC, avec des moniteurs QD-OLED 240 Hz dès 299,95 € et des 27 pouces QHD sous les 160 €. Le post Black Friday TopAchat : jusqu’à 25 % de remise sur les écrans PC OLED et QHD a été publié sur IT-Connect .",
-      "categories": [
-        "Bons Plans",
-        "Black Friday",
-        "Bon plan",
-        "Hardware",
-        "Matériel"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119820",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Cyberattaque contre la Commission européenne : les pirates auraient utilisé l’outil ARTEX",
-      "link": "https://www.it-connect.fr/commission-europeenne-cyberattaque-artex/",
-      "date": "2026-11-19T16:40:11.000Z",
-      "summary": "La Commission européenne confirme une cyberattaque qui a perturbé ses applications internes. Selon POLITICO, les pirates auraient utilisé ARTEX. Le post Cyberattaque contre la Commission européenne : les pirates auraient utilisé l’outil ARTEX a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cyberattaque",
-        "Cybersécurité",
-        "IA"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119818",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "phpAfterShell : PHP corrige sept failles critiques, dont deux variantes de PHP2Shell",
-      "link": "https://www.it-connect.fr/phpaftershell-cve-2026-126714-php-failles-critiques/",
-      "date": "2026-11-19T16:05:31.000Z",
-      "summary": "phpAfterShell (CVE-2026-126714) et six autres failles critiques sont corrigées dans PHP 8.5.13, 8.4.28, 8.3.37 et 8.2.36. Voici l'essentiel à savoir. Le post phpAfterShell : PHP corrige sept failles critiques, dont deux variantes de PHP2Shell a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "PHP",
-        "Vulnérabilité"
-      ],
-      "cves": [
-        "CVE-2026-126714"
-      ]
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119658",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4",
-      "link": "https://www.it-connect.fr/garlic-llm-ia-locale-ps4/",
-      "date": "2026-11-19T10:00:00.000Z",
-      "summary": "Garlic LLM fait tourner l'IA Qwen3.5-9B en local sur le GPU d'une PS4 débridée, sans Internet et à plus de 30 tokens par seconde. Voici ce qu'il faut savoir. Le post Garlic LLM : cette application fait tourner une IA de 9 milliards de paramètres sur une PS4 a été publié sur IT-Connect .",
-      "categories": [
-        "Matériel",
-        "Gaming",
-        "IA",
-        "Open Source"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119432",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Panne Microsoft 365 du 12 novembre 2026 : comment bénéficier d’un crédit de service ?",
-      "link": "https://www.it-connect.fr/panne-microsoft-365-credit-sla/",
-      "date": "2026-11-19T06:45:00.000Z",
-      "summary": "Panne Microsoft 365 du 12 novembre : le crédit SLA n'est pas automatique. Calcul, infos à fournir et démarche pour client direct ou CSP : agissez maintenant. Le post Panne Microsoft 365 du 12 novembre 2026 : comment bénéficier d’un crédit de service ? a été publié sur IT-Connect .",
-      "categories": [
-        "Entreprise",
-        "Microsoft",
-        "Microsoft 365"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119726",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5",
-      "link": "https://www.it-connect.fr/mise-a-jour-php-faille-critique-19-novembre-2026/",
-      "date": "2026-11-19T05:55:10.000Z",
-      "summary": "Ce 19 novembre 2026, au moins une faille de sécurité critique sera corrigée dans les branches 8.2 à 8.5 de PHP, et sans doute la CVE-2026-115560. Le post PHP va corriger au moins une faille critique ce jeudi : préparez-vous à mettre à jour PHP 8.2 à 8.5 a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "PHP",
-        "Vulnérabilité"
-      ],
-      "cves": [
-        "CVE-2026-115560"
       ]
     },
     {
