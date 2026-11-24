@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T06:43:47.718Z",
+  "generatedAt": "2026-11-24T18:38:02.713Z",
   "feeds": [
     {
       "id": "alertes",
@@ -82,6 +82,126 @@
   },
   "items": [
     {
+      "id": "https://www.it-connect.fr/?p=120093",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
+      "link": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
+      "date": "2026-11-24T17:00:00.000Z",
+      "summary": "ElixirOffice, la suite libre de Gaël Duval basée sur Euro-Office, reprend le ruban, les menus et les raccourcis de Microsoft Office. Voici ce qu'il faut savoir. Le post ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office a été publié sur IT-Connect .",
+      "categories": [
+        "Self-Hosting & Open Source",
+        "Office",
+        "ONLYOFFICE",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120130",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
+      "link": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
+      "date": "2026-11-24T10:47:59.000Z",
+      "summary": "Free lance Traduction Live, un service intégré à son réseau mobile qui traduit vos appels en direct dans 10 langues, inclus dans Free Max. Voici l'essentiel. Le post Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application a été publié sur IT-Connect .",
+      "categories": [
+        "Mobile",
+        "5G",
+        "IA"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120142",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401)",
+      "link": "https://www.it-connect.fr/cve-2026-134401-faille-critique-chrome/",
+      "date": "2026-11-24T10:33:39.000Z",
+      "summary": "Google a publié Chrome 158.0.8127.88 pour corriger la CVE-2026-134401, une faille critique qui permettrait de sortir de la sandbox : voici ce qu'il faut savoir. Le post Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401) a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Chrome",
+        "Cybersécurité",
+        "Google",
+        "Vulnérabilités"
+      ],
+      "cves": [
+        "CVE-2026-134401"
+      ]
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119893",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
+      "link": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
+      "date": "2026-11-24T08:55:00.000Z",
+      "summary": "Black Friday UGREEN : chargeurs Nexode, batterie externe, traceurs, webcam et NAS en promotion. Notre sélection des meilleures offres jusqu'au 30 novembre. Le post Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans",
+        "Black Friday",
+        "Bon plan",
+        "Hardware",
+        "Matériel",
+        "Ugreen"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=117744",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
+      "link": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
+      "date": "2026-11-24T08:45:00.000Z",
+      "summary": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows. Le post privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory a été publié sur IT-Connect .",
+      "categories": [
+        "Sécurité & Durcissement AD",
+        "Self-Hosting & Open Source",
+        "Active Directory",
+        "Cybersécurité",
+        "MFA",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120120",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA",
+      "link": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
+      "date": "2026-11-24T08:20:00.000Z",
+      "summary": "Microsoft prépare RDMA over USB4, une nouveauté Windows permettant de relier plusieurs PC en USB4 pour y répartir un gros modèle d'IA. Le post RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "AMD",
+        "IA",
+        "Microsoft",
+        "Windows 11"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119448",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
+      "link": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
+      "date": "2026-11-24T08:00:00.000Z",
+      "summary": "Démantelé en 2019 par la gendarmerie, le botnet du ver USB Retadup a été réactivé via ses anciens domaines. Il distribue désormais le loader CoffeeLoader. Le post Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Botnet",
+        "Cybersécurité",
+        "Malware",
+        "Windows"
+      ],
+      "cves": []
+    },
+    {
       "id": "https://www.it-connect.fr/?p=120086",
       "feed": "itconnect",
       "source": "IT-Connect",
@@ -112,6 +232,83 @@
         "Fuite de données",
         "Microsoft"
       ],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1608/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Google Chrome (24 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1608/",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Google Chrome. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1609/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Laravel (24 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1609/",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Postfix (24 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1610/",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Postfix. Elles permettent à un attaquant de provoquer un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1611/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Traefik (24 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1611/",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Traefik. Elle permet à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1612/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans les produits F5 (24 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1612/",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits F5. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1613/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans OpenSSL (24 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1613/",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans OpenSSL. Elles permettent à un attaquant de provoquer un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1614/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Elastic (24 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1614/",
+      "date": "2026-11-24T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
       "cves": []
     },
     {
@@ -215,53 +412,6 @@
       "cves": []
     },
     {
-      "id": "https://www.it-connect.fr/?p=119556",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "J’ai testé ARTEX, ce framework offensif IA redouté par le FBI",
-      "link": "https://www.it-connect.fr/artex-framework-offensif-ia-cest-quoi/",
-      "date": "2026-11-23T08:24:44.000Z",
-      "summary": "ARTEX, framework de pentest autonome dopé à l'IA, fait l'objet d'une alerte du FBI. Fonctionnement, chronologie, test en lab et mesures de protection. Le post J’ai testé ARTEX, ce framework offensif IA redouté par le FBI a été publié sur IT-Connect .",
-      "categories": [
-        "Red Team",
-        "Cybersécurité",
-        "IA"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119551",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc.",
-      "link": "https://www.it-connect.fr/api-specops-authentication/",
-      "date": "2026-11-23T08:00:00.000Z",
-      "summary": "Specops lance l'API Specops Authentication : vérifiez l'identité d'un utilisateur depuis un chatbot IA ou ServiceNow avant toute action sensible. Le post Specops lance une API pour vérifier l’identité des utilisateurs dans vos outils : chatbots IA, ITSM, etc. a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "IA"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119986",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "GL.iNet : des pirates ont exploité le cloud GoodCloud pour infecter des routeurs et des KVM",
-      "link": "https://www.it-connect.fr/gl-inet-goodcloud-routeurs-kvm-malware/",
-      "date": "2026-11-23T07:49:13.000Z",
-      "summary": "GL.iNet confirme qu'une faille de son cloud GoodCloud a servi à installer un malware sur des routeurs et des KVM. Voici ce qu'il faut savoir. Le post GL.iNet : des pirates ont exploité le cloud GoodCloud pour infecter des routeurs et des KVM a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cloud",
-        "Cybersécurité",
-        "Malware",
-        "Réseau"
-      ],
-      "cves": []
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
       "feed": "securite",
       "source": "CERT-FR",
@@ -358,68 +508,6 @@
       "date": "2026-11-23T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
       "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119116",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
-      "link": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
-      "date": "2026-11-21T12:00:00.000Z",
-      "summary": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir. Le post Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "Linux",
-        "macOS",
-        "Microsoft"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119908",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Windows 11 KB5132057 : la nouvelle fonction de recherche exécute des actions !",
-      "link": "https://www.it-connect.fr/windows-11-kb5132057-nouvelle-recherche-connexion-web/",
-      "date": "2026-11-20T15:34:06.000Z",
-      "summary": "KB5132057 : nouvelle recherche Windows 11, boîte Exécuter modernisée et connexion web sur les postes hybrides. Voici l'essentiel à savoir sur cette mise à jour. Le post Windows 11 KB5132057 : la nouvelle fonction de recherche exécute des actions ! a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "Microsoft",
-        "Mise à jour",
-        "Windows 11"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119844",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Intune : les fenêtres de maintenance pour Windows Update arrivent enfin !",
-      "link": "https://www.it-connect.fr/intune-fenetres-de-maintenance-windows-update/",
-      "date": "2026-11-20T15:30:00.000Z",
-      "summary": "Intune prend enfin en charge les fenêtres de maintenance pour Windows Update, un an après leur annonce à Ignite 2025. Voici ce qu'il faut savoir. Le post Intune : les fenêtres de maintenance pour Windows Update arrivent enfin ! a été publié sur IT-Connect .",
-      "categories": [
-        "Entreprise",
-        "intune",
-        "Microsoft",
-        "Mise à jour",
-        "Windows"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=57003",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€",
-      "link": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
-      "date": "2026-11-20T15:00:19.000Z",
-      "summary": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels. Le post Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€ a été publié sur IT-Connect .",
-      "categories": [
-        "Bons Plans"
-      ],
       "cves": []
     },
     {
@@ -621,94 +709,6 @@
       "cves": []
     },
     {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans VMware Tanzu (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1568/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans VMware Tanzu. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Mitel (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1569/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mitel. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Progress WS_FTP Server (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1570/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Progress WS_FTP Server. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1571/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Laravel (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1571/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Laravel. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une injection de code indirecte à distance (XSS) et un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1572/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans ClamAV (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1572/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans ClamAV. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Cisco (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1573/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Cisco. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1574/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans WordPress (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1574/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans WordPress. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Wireshark (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1575/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Wireshark. Elles permettent à un attaquant de provoquer un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1576/",
       "feed": "securite",
       "source": "CERT-FR",
@@ -789,6 +789,17 @@
         "CVE-2026-123633",
         "CVE-2026-123007"
       ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Mitel MiCollab (17 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1547/",
+      "date": "2026-11-17T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Mitel MiCollab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
     },
     {
       "id": "https://www.cert.cyber.gouv.fr/cti/CERTFR-2026-CTI-010/",
