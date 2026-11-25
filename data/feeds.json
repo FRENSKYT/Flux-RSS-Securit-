@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T18:38:02.713Z",
+  "generatedAt": "2026-11-25T12:07:53.202Z",
   "feeds": [
     {
       "id": "alertes",
@@ -81,6 +81,106 @@
     }
   },
   "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=120199",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
+      "link": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
+      "date": "2026-11-25T11:00:00.000Z",
+      "summary": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon. Le post Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans",
+        "Black Friday",
+        "Bon plan",
+        "Hardware",
+        "mini PC",
+        "VZMORE"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120228",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
+      "link": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
+      "date": "2026-11-25T10:38:32.000Z",
+      "summary": "Panne Microsoft 365 : le rapport reconnaît que certains e-mails n'ont jamais été remis et Microsoft dévoile sa feuille de route pour éviter de futurs incidents. Le post Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements a été publié sur IT-Connect .",
+      "categories": [
+        "Entreprise",
+        "Exchange Online",
+        "Microsoft",
+        "Microsoft 365",
+        "Panne"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=119951",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
+      "link": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
+      "date": "2026-11-25T08:15:00.000Z",
+      "summary": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible. Le post Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs a été publié sur IT-Connect .",
+      "categories": [
+        "Infrastructure as Code",
+        "Linux",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120128",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
+      "link": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
+      "date": "2026-11-25T06:49:00.000Z",
+      "summary": "Mistral offre un mois de Vibe Pro aux Européens avec le code MISTRALVIBE. Une formule à 17,99 € par mois pour coder avec l'IA dans le terminal et VS Code. Le post Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans",
+        "Bon plan",
+        "IA",
+        "Mistral AI"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120180",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
+      "link": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
+      "date": "2026-11-25T06:31:00.000Z",
+      "summary": "La Commission européenne confirme que la cyberattaque assistée par l'IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité. Le post Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cyberattaque",
+        "Cybersécurité"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120152",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
+      "link": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
+      "date": "2026-11-25T06:05:00.000Z",
+      "summary": "Cinq jours après la zero-day CVE-2026-123890, Broadcom corrige 23 failles VMware, dont la CVE-2026-123903 dans vCenter et deux failles critiques dans ESX. Le post VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "VMware",
+        "Vulnérabilités"
+      ],
+      "cves": [
+        "CVE-2026-123890",
+        "CVE-2026-123903"
+      ]
+    },
     {
       "id": "https://www.it-connect.fr/?p=120093",
       "feed": "itconnect",
@@ -309,106 +409,6 @@
       "date": "2026-11-24T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Elastic. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120040",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Kudu, FluentCleaner, BleachBit, etc… Lequel choisir pour remplacer CCleaner ?",
-      "link": "https://www.it-connect.fr/alternative-ccleaner-logiciels-nettoyage/",
-      "date": "2026-11-23T17:00:00.000Z",
-      "summary": "Par quoi remplacer CCleaner ? Kudu, FluentCleaner, BleachBit, PrivaZer, Glary Utilities et PC Manager comparés, avec la vidéo de démonstration. Le post Kudu, FluentCleaner, BleachBit, etc… Lequel choisir pour remplacer CCleaner ? a été publié sur IT-Connect .",
-      "categories": [
-        "Astuces & logiciels",
-        "Logiciel",
-        "Open Source",
-        "Windows"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119516",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Windows Admin Center vMode : la migration de VMware ESXi vers Hyper-V arrive en préversion privée",
-      "link": "https://www.it-connect.fr/windows-admin-center-vmode-vm-conversion-vmware-hyper-v/",
-      "date": "2026-11-23T16:30:00.000Z",
-      "summary": "Microsoft intègre VM Conversion à Windows Admin Center vMode pour migrer des VM VMware ESXi vers Hyper-V. Une préversion privée qui change l'architecture. Le post Windows Admin Center vMode : la migration de VMware ESXi vers Hyper-V arrive en préversion privée a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "Hyper-V",
-        "Microsoft",
-        "Virtualisation",
-        "VMware"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119991",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques",
-      "link": "https://www.it-connect.fr/edge-lockdown-mode-webgl-webgpu/",
-      "date": "2026-11-23T10:30:00.000Z",
-      "summary": "Microsoft teste dans Edge Canary un Lockdown Mode qui bloque WebGL et WebGPU pour contrer les attaques ciblées. Voici ce qu'il faut savoir sur ce mode. Le post Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "Microsoft",
-        "Microsoft Edge"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119735",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction",
-      "link": "https://www.it-connect.fr/black-friday-geekom-notre-selection-doffres-sur-les-mini-pc-jusqua-30-de-reduction/",
-      "date": "2026-11-23T10:20:00.000Z",
-      "summary": "GEEKOM profite du Black Friday 2026 pour proposer des offres sur sa gamme de mini PC, des modèles du quotidien jusqu'aux machines les plus performantes. Le post Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction a été publié sur IT-Connect .",
-      "categories": [
-        "Bons Plans",
-        "Black Friday",
-        "Bon plan",
-        "GEEKOM",
-        "Hardware",
-        "mini PC"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119994",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité",
-      "link": "https://www.it-connect.fr/gta-6-pc-leonida-fuite-xbox-cyberleek/",
-      "date": "2026-11-23T09:23:56.000Z",
-      "summary": "Le projet open source Leonida veut faire tourner sous Windows la version Xbox de GTA 6 diffusée par Cyberleek. Mais le jeu ne démarre pas encore. Le post GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité a été publié sur IT-Connect .",
-      "categories": [
-        "Matériel",
-        "Cybersécurité",
-        "Gaming",
-        "Open Source"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120007",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Black Friday Week : Mac mini M6, AirPods Pro 3, Alienware 15… le top des offres sur Amazon",
-      "link": "https://www.it-connect.fr/bon-plan-black-friday-week-amazon-2026/",
-      "date": "2026-11-23T09:17:30.000Z",
-      "summary": "Black Friday Week sur Amazon : Mac mini M6 à 889 €, Alienware 15 à 969 €, AirPods Pro 3 à 188 €... Voici les bons plans du lundi 23 novembre 2026. Le post Black Friday Week : Mac mini M6, AirPods Pro 3, Alienware 15… le top des offres sur Amazon a été publié sur IT-Connect .",
-      "categories": [
-        "Bons Plans",
-        "Black Friday",
-        "Bon plan",
-        "Hardware",
-        "Matériel"
-      ],
       "cves": []
     },
     {
