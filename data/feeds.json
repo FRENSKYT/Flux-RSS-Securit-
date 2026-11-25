@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T12:07:53.202Z",
+  "generatedAt": "2026-11-25T21:54:26.726Z",
   "feeds": [
     {
       "id": "alertes",
@@ -81,6 +81,22 @@
     }
   },
   "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=120250",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web",
+      "link": "https://www.it-connect.fr/proxmox-ve-9-3-nouveautes/",
+      "date": "2026-11-25T19:24:23.000Z",
+      "summary": "Proxmox VE 9.3 est disponible : multipath et LVM partagé sur SAN se configurent depuis l'interface web, et les snapshots LVM passent en production. Le post Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "Open Source",
+        "Proxmox",
+        "Virtualisation"
+      ],
+      "cves": []
+    },
     {
       "id": "https://www.it-connect.fr/?p=120199",
       "feed": "itconnect",
@@ -180,6 +196,96 @@
         "CVE-2026-123890",
         "CVE-2026-123903"
       ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Tenable Enclave Security (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Enclave Security. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Mozilla (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1616/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mozilla. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1617/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Laravel (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1617/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans les produits Schneider Electric (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1618/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans les produits Schneider Electric. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Symfony (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1619/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Symfony. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Microsoft Office (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1620/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Microsoft Office. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1621/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Palo Alto Networks PAN-OS (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1621/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Palo Alto Networks PAN-OS. Elle permet à un attaquant de provoquer une élévation de privilèges. Palo Alto Networks indique que la vulnérabilité CVE-2026-43600 est activement exploitée.",
+      "categories": [],
+      "cves": [
+        "CVE-2026-43600"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits VMware (25 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1622/",
+      "date": "2026-11-25T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
     },
     {
       "id": "https://www.it-connect.fr/?p=120093",
@@ -314,23 +420,6 @@
         "Développeur",
         "IA",
         "Open Source"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120102",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Entra Connect Health : une faille exploitée a exposé les e-mails des admins de tenants Microsoft",
-      "link": "https://www.it-connect.fr/entra-connect-health-faille-exploitee-metadonnees-tenants/",
-      "date": "2026-11-24T02:00:00.000Z",
-      "summary": "Une faille dans l'API d'Entra Connect Health a été exploitée pour lire les métadonnées de tenants, dont les e-mails des admins. Voici ce qu'il faut savoir. Le post Entra Connect Health : une faille exploitée a exposé les e-mails des admins de tenants Microsoft a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Azure AD Connect",
-        "Cybersécurité",
-        "Fuite de données",
-        "Microsoft"
       ],
       "cves": []
     },
@@ -511,39 +600,6 @@
       "cves": []
     },
     {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Moodle (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1581/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Moodle. Elles permettent à un attaquant de provoquer une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Citrix (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1582/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Citrix. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Tenable Security Center (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1583/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Tenable Security Center. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/",
       "feed": "securite",
       "source": "CERT-FR",
@@ -705,61 +761,6 @@
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
       "date": "2026-11-20T00:00:00.000Z",
       "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1576/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Splunk (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1576/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Splunk. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une atteinte à la confidentialité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1577/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits NetApp (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1577/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1578/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans les produits Elastic (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1578/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits Elastic. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1579/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Drupal (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1579/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Drupal. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1580/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans PHP (19 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1580/",
-      "date": "2026-11-19T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans PHP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "categories": [],
       "cves": []
     },
