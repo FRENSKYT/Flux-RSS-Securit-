@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:54:26.726Z",
+  "generatedAt": "2026-11-26T13:35:36.190Z",
   "feeds": [
     {
       "id": "alertes",
@@ -81,6 +81,57 @@
     }
   },
   "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=120268",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac",
+      "link": "https://www.it-connect.fr/claude-artefacts-applications-mac-windows/",
+      "date": "2026-11-26T08:29:23.000Z",
+      "summary": "Anthropic lance Install as app : les artefacts de Claude s'installent comme des applications Mac et Windows, avec un accès complet possible à l'ordinateur. Le post Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac a été publié sur IT-Connect .",
+      "categories": [
+        "Web",
+        "Claude",
+        "IA",
+        "Mac",
+        "Windows"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120261",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ?",
+      "link": "https://www.it-connect.fr/cyberattaque-1password-novembre-2026/",
+      "date": "2026-11-26T05:51:00.000Z",
+      "summary": "1Password confirme une cyberattaque : des données clients volées sur des serveurs suite à la compromission du compte GitHub d'un salarié. Le post Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ? a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cyberattaque",
+        "Fuite de données",
+        "GitHub",
+        "Phishing"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120239",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Signature NTLM : les mises à jour de novembre 2026 perturbent l’authentification sur Windows",
+      "link": "https://www.it-connect.fr/windows-novembre-2026-echec-authentification-ntlm-proxy-sso/",
+      "date": "2026-11-26T05:17:49.000Z",
+      "summary": "Depuis les mises à jour Windows de novembre 2026, l'authentification NTLM peut échouer dans certains cas, notamment avec les proxys et certains SSO. Le post Signature NTLM : les mises à jour de novembre 2026 perturbent l’authentification sur Windows a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Microsoft",
+        "Mise à jour",
+        "NTLM",
+        "Windows"
+      ],
+      "cves": []
+    },
     {
       "id": "https://www.it-connect.fr/?p=120250",
       "feed": "itconnect",
@@ -369,56 +420,6 @@
         "Active Directory",
         "Cybersécurité",
         "MFA",
-        "Open Source"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120120",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA",
-      "link": "https://www.it-connect.fr/rdma-over-usb4-windows-cluster-ia-locale/",
-      "date": "2026-11-24T08:20:00.000Z",
-      "summary": "Microsoft prépare RDMA over USB4, une nouveauté Windows permettant de relier plusieurs PC en USB4 pour y répartir un gros modèle d'IA. Le post RDMA over USB4 : Windows va permettre de relier plusieurs PC pour faire tourner de gros modèles d’IA a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "AMD",
-        "IA",
-        "Microsoft",
-        "Windows 11"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119448",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader",
-      "link": "https://www.it-connect.fr/retadup-ver-usb-coffeeloader/",
-      "date": "2026-11-24T08:00:00.000Z",
-      "summary": "Démantelé en 2019 par la gendarmerie, le botnet du ver USB Retadup a été réactivé via ses anciens domaines. Il distribue désormais le loader CoffeeLoader. Le post Neutralisé en 2019 par la gendarmerie, le ver USB Retadup revient pour distribuer CoffeeLoader a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Botnet",
-        "Cybersécurité",
-        "Malware",
-        "Windows"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120086",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust",
-      "link": "https://www.it-connect.fr/rust-anything-reecrire-application-rust-agents-ia/",
-      "date": "2026-11-24T03:00:00.000Z",
-      "summary": "Grâce à rust-anything, vous pouvez piloter un agent IA pour réécrire en Rust une application, tout en vérifiant chaque étape pour vous assurer du résultat. Le post rust-anything : cet outil open source aide les agents IA à réécrire vos applications en Rust a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "Développeur",
-        "IA",
         "Open Source"
       ],
       "cves": []
