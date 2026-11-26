@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T13:35:36.190Z",
+  "generatedAt": "2026-11-26T22:48:00.177Z",
   "feeds": [
     {
       "id": "alertes",
@@ -82,6 +82,72 @@
   },
   "items": [
     {
+      "id": "https://www.it-connect.fr/?p=120302",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday TerraMaster : jusqu’à 30 % de remise sur les NAS et boîtiers de stockage sur Amazon",
+      "link": "https://www.it-connect.fr/bon-plan-terramaster-black-friday-2026/",
+      "date": "2026-11-26T17:08:59.000Z",
+      "summary": "Black Friday TerraMaster : jusqu'au 30 novembre, NAS et boîtiers de stockage jusqu'à -30 % sur Amazon.fr. Le NAS F2-425 passe à 255,99 € au lieu de 319,99 €. Le post Black Friday TerraMaster : jusqu’à 30 % de remise sur les NAS et boîtiers de stockage sur Amazon a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans",
+        "Black Friday",
+        "Bon plan",
+        "Hardware",
+        "Matériel",
+        "NAS",
+        "TerraMaster"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120275",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "AdGuard Home passe en version 1.0 : découvrez la nouvelle interface !",
+      "link": "https://www.it-connect.fr/adguard-home-1-0-nouvelle-interface-dns-cloudflare/",
+      "date": "2026-11-26T17:00:00.000Z",
+      "summary": "AdGuard Home passe en version 1.0 avec une interface reconstruite et Cloudflare comme DNS par défaut à la place de Quad9. Voici ce qu'il faut savoir. Le post AdGuard Home passe en version 1.0 : découvrez la nouvelle interface ! a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "cloudflare",
+        "DNS",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120311",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran soupçonné par les États-Unis",
+      "link": "https://www.it-connect.fr/navires-pirates-iran-fortigate/",
+      "date": "2026-11-26T16:14:00.000Z",
+      "summary": "Pétroliers, méthanier : jusqu'à 50 navires auraient subi une cyberattaque via des pare-feu FortiGate non patchés. Washington soupçonne l'Iran. Le post Jusqu’à 50 navires piratés via des failles FortiGate : l’Iran soupçonné par les États-Unis a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cyberattaque",
+        "Cybersécurité",
+        "Fortinet"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120266",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club revendique le vol de données",
+      "link": "https://www.it-connect.fr/fifa-cyberattaque-handsome-boy-hacking-club-fuite-donnees/",
+      "date": "2026-11-26T15:22:58.000Z",
+      "summary": "La FIFA confirme un vol de données personnelles et professionnelles, revendiqué par le Handsome Boy Hacking Club : voici ce que l'on sait. Le post La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club revendique le vol de données a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cyberattaque",
+        "Cybersécurité"
+      ],
+      "cves": []
+    },
+    {
       "id": "https://www.it-connect.fr/?p=120268",
       "feed": "itconnect",
       "source": "IT-Connect",
@@ -130,6 +196,85 @@
         "NTLM",
         "Windows"
       ],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Drupal (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1623/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Drupal. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité. Drupal indique que la vulnérabilité CVE-2026-136716 est activement exploitée.",
+      "categories": [],
+      "cves": [
+        "CVE-2026-136716"
+      ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans GitLab (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1624/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans GitLab. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Tenable (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1625/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Tenable. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une injection SQL (SQLi) et un contournement de la politique de sécurité.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits NetApp (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1626/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits NetApp. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Vulnérabilité dans Mattermost Server (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1627/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "Une vulnérabilité a été découverte dans Mattermost Server. Elle permet à un attaquant de provoquer un problème de sécurité non spécifié par l'éditeur.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1628/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans HPE Aruba Networking Airwave (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1628/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans HPE Aruba Networking Airwave. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1629/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits Veeam (26 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1629/",
+      "date": "2026-11-26T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Veeam. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance. L'éditeur fournit également une mesure de contournement provisoire.",
+      "categories": [],
       "cves": []
     },
     {
@@ -355,76 +500,6 @@
       "cves": []
     },
     {
-      "id": "https://www.it-connect.fr/?p=120130",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
-      "link": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
-      "date": "2026-11-24T10:47:59.000Z",
-      "summary": "Free lance Traduction Live, un service intégré à son réseau mobile qui traduit vos appels en direct dans 10 langues, inclus dans Free Max. Voici l'essentiel. Le post Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application a été publié sur IT-Connect .",
-      "categories": [
-        "Mobile",
-        "5G",
-        "IA"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120142",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401)",
-      "link": "https://www.it-connect.fr/cve-2026-134401-faille-critique-chrome/",
-      "date": "2026-11-24T10:33:39.000Z",
-      "summary": "Google a publié Chrome 158.0.8127.88 pour corriger la CVE-2026-134401, une faille critique qui permettrait de sortir de la sandbox : voici ce qu'il faut savoir. Le post Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401) a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Chrome",
-        "Cybersécurité",
-        "Google",
-        "Vulnérabilités"
-      ],
-      "cves": [
-        "CVE-2026-134401"
-      ]
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119893",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
-      "link": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
-      "date": "2026-11-24T08:55:00.000Z",
-      "summary": "Black Friday UGREEN : chargeurs Nexode, batterie externe, traceurs, webcam et NAS en promotion. Notre sélection des meilleures offres jusqu'au 30 novembre. Le post Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion a été publié sur IT-Connect .",
-      "categories": [
-        "Bons Plans",
-        "Black Friday",
-        "Bon plan",
-        "Hardware",
-        "Matériel",
-        "Ugreen"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=117744",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory",
-      "link": "https://www.it-connect.fr/tuto-privacyidea-serveur-mfa-open-source/",
-      "date": "2026-11-24T08:45:00.000Z",
-      "summary": "Tuto privacyIDEA : installez un serveur MFA open source, connectez-le à l’Active Directory et ajoutez le MFA à l’ouverture de session Windows. Le post privacyIDEA : un serveur MFA open source pour sécuriser Windows et l’Active Directory a été publié sur IT-Connect .",
-      "categories": [
-        "Sécurité & Durcissement AD",
-        "Self-Hosting & Open Source",
-        "Active Directory",
-        "Cybersécurité",
-        "MFA",
-        "Open Source"
-      ],
-      "cves": []
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1608/",
       "feed": "securite",
       "source": "CERT-FR",
@@ -597,83 +672,6 @@
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1607/",
       "date": "2026-11-23T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans les produits Palo Alto Networks (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1584/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans les produits Palo Alto Networks. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1585/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans Metabase (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1585/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Metabase. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Apache Tomcat (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1587/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Apache Tomcat. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Mattermost (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1588/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Mattermost. Certaines d'entre elles permettent à un attaquant de provoquer un déni de service à distance, une atteinte à la confidentialité des données et un contournement de la politique de sécurité.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1589/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Moxa (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1589/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Moxa. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans Siemens Industrial Edge (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1590/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans Siemens Industrial Edge. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans GitLab (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1591/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans GitLab. Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance.",
       "categories": [],
       "cves": []
     },
