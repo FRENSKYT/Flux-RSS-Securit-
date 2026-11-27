@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T22:48:00.177Z",
+  "generatedAt": "2026-11-27T14:41:04.996Z",
   "feeds": [
     {
       "id": "alertes",
@@ -81,6 +81,102 @@
     }
   },
   "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=120353",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la CISA alerte sur 10 failles exploitées",
+      "link": "https://www.it-connect.fr/danfoss-mitel-juniper-xen-orchestra-10-failles-exploitees-cisa/",
+      "date": "2026-11-27T09:36:00.000Z",
+      "summary": "La CISA a ajouté 10 failles exploitées à son catalogue KEV : contrôleurs Danfoss, Mitel MiCollab, Juniper et Xen Orchestra. Voici les failles en question. Le post Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la CISA alerte sur 10 failles exploitées a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cyberattaque",
+        "Cybersécurité",
+        "Vulnérabilité"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120339",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux",
+      "link": "https://www.it-connect.fr/clonezilla-live-3-3-5-3-zfs-mdraid/",
+      "date": "2026-11-27T08:55:00.000Z",
+      "summary": "Clonezilla Live 3.3.5-3 ajoute la prise en charge de ZFS, clone le RAID logiciel MDRAID de disque à disque et corrige des bugs risqués pour vos données. Le post Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "Linux",
+        "Open Source",
+        "RAID",
+        "Sauvegarde"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120171",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien",
+      "link": "https://www.it-connect.fr/tuto-glpi-ai/",
+      "date": "2026-11-27T08:31:20.000Z",
+      "summary": "Tutoriel GLPI AI : installez le plugin, choisissez votre fournisseur d'IA, résumez vos tickets et branchez un client IA sur GLPI via le protocole MCP. Le post GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien a été publié sur IT-Connect .",
+      "categories": [
+        "IA",
+        "Self-Hosting & Open Source",
+        "Claude",
+        "GLPI",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=57003",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€",
+      "link": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
+      "date": "2026-11-27T08:30:31.000Z",
+      "summary": "Pour le Black Friday 2026, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres logiciels. Le post Black Friday 2026 : Office 2024 Pro Plus à 21.27€ et Windows 11 Pro à 12.25€ a été publié sur IT-Connect .",
+      "categories": [
+        "Bons Plans"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120170",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "GLPI 12 : voici les nouveautés de cette nouvelle version majeure",
+      "link": "https://www.it-connect.fr/glpi-12-nouveautes/",
+      "date": "2026-11-27T08:00:00.000Z",
+      "summary": "GLPI 12 refond la base de connaissances, contrôle les sessions et crée des OLA par groupe. Voici nos tests et les points à vérifier avant de migrer. Le post GLPI 12 : voici les nouveautés de cette nouvelle version majeure a été publié sur IT-Connect .",
+      "categories": [
+        "Self-Hosting & Open Source",
+        "GLPI",
+        "Open Source"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120337",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Drupal : après Fail2Install, une nouvelle faille critique déjà exploitée (CVE-2026-136716)",
+      "link": "https://www.it-connect.fr/drupal-fail2install-cve-2026-136716-faille-exploitee/",
+      "date": "2026-11-27T07:52:44.000Z",
+      "summary": "Une semaine après Fail2Install, Drupal a corrigé la CVE-2026-136716, une faille critique de son installeur déjà exploitée. Voici ce qu'il faut savoir. Le post Drupal : après Fail2Install, une nouvelle faille critique déjà exploitée (CVE-2026-136716) a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "Vulnérabilité",
+        "Web"
+      ],
+      "cves": [
+        "CVE-2026-136716"
+      ]
+    },
     {
       "id": "https://www.it-connect.fr/?p=120302",
       "feed": "itconnect",
@@ -312,88 +408,6 @@
       "cves": []
     },
     {
-      "id": "https://www.it-connect.fr/?p=120228",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
-      "link": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
-      "date": "2026-11-25T10:38:32.000Z",
-      "summary": "Panne Microsoft 365 : le rapport reconnaît que certains e-mails n'ont jamais été remis et Microsoft dévoile sa feuille de route pour éviter de futurs incidents. Le post Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements a été publié sur IT-Connect .",
-      "categories": [
-        "Entreprise",
-        "Exchange Online",
-        "Microsoft",
-        "Microsoft 365",
-        "Panne"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=119951",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
-      "link": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
-      "date": "2026-11-25T08:15:00.000Z",
-      "summary": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible. Le post Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs a été publié sur IT-Connect .",
-      "categories": [
-        "Infrastructure as Code",
-        "Linux",
-        "Open Source"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120128",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo",
-      "link": "https://www.it-connect.fr/bon-plan-mistral-vibe-pro-gratuit-1-mois/",
-      "date": "2026-11-25T06:49:00.000Z",
-      "summary": "Mistral offre un mois de Vibe Pro aux Européens avec le code MISTRALVIBE. Une formule à 17,99 € par mois pour coder avec l'IA dans le terminal et VS Code. Le post Bon plan IA : Mistral Vibe Pro est gratuit pendant 1 mois avec ce code promo a été publié sur IT-Connect .",
-      "categories": [
-        "Bons Plans",
-        "Bon plan",
-        "IA",
-        "Mistral AI"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120180",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité",
-      "link": "https://www.it-connect.fr/eu-academy-fuite-donnees-cyberattaque-commission-europeenne/",
-      "date": "2026-11-25T06:31:00.000Z",
-      "summary": "La Commission européenne confirme que la cyberattaque assistée par l'IA a touché EU Academy : noms et e-mails des utilisateurs ont fuité. Le post Cyberattaque Commission européenne : les noms et adresses e-mail des utilisateurs d’EU Academy ont fuité a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cyberattaque",
-        "Cybersécurité"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120152",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day",
-      "link": "https://www.it-connect.fr/vmware-vcenter-esx-cve-2026-123903-failles-novembre/",
-      "date": "2026-11-25T06:05:00.000Z",
-      "summary": "Cinq jours après la zero-day CVE-2026-123890, Broadcom corrige 23 failles VMware, dont la CVE-2026-123903 dans vCenter et deux failles critiques dans ESX. Le post VMware vCenter et ESX : trois nouvelles failles critiques, cinq jours après la faille zero-day a été publié sur IT-Connect .",
-      "categories": [
-        "Actu Cybersécurité",
-        "Cybersécurité",
-        "VMware",
-        "Vulnérabilités"
-      ],
-      "cves": [
-        "CVE-2026-123890",
-        "CVE-2026-123903"
-      ]
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
       "feed": "securite",
       "source": "CERT-FR",
@@ -481,22 +495,6 @@
       "date": "2026-11-25T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
       "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120093",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office",
-      "link": "https://www.it-connect.fr/elixiroffice-suite-bureautique-libre-microsoft-office/",
-      "date": "2026-11-24T17:00:00.000Z",
-      "summary": "ElixirOffice, la suite libre de Gaël Duval basée sur Euro-Office, reprend le ruban, les menus et les raccourcis de Microsoft Office. Voici ce qu'il faut savoir. Le post ElixirOffice : une suite bureautique open source qui s’adresse aux habitués de Microsoft Office a été publié sur IT-Connect .",
-      "categories": [
-        "Self-Hosting & Open Source",
-        "Office",
-        "ONLYOFFICE",
-        "Open Source"
-      ],
       "cves": []
     },
     {
