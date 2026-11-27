@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T14:41:04.996Z",
+  "generatedAt": "2026-11-27T23:13:13.033Z",
   "feeds": [
     {
       "id": "alertes",
@@ -81,6 +81,40 @@
     }
   },
   "items": [
+    {
+      "id": "https://www.it-connect.fr/?p=119678",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "VMware ESXi et Proxmox VE : des ransomwares déployés avec des identifiants mal protégés",
+      "link": "https://www.it-connect.fr/blacknevas-ransomware-vmware-esxi-vcenter/",
+      "date": "2026-11-27T19:45:50.000Z",
+      "summary": "BlackNevas et The Gentlemen ont frappé des hyperviseurs VMware ESXi et Proxmox VE avec de simples identifiants volés ou stockés au mauvais endroit. Le post VMware ESXi et Proxmox VE : des ransomwares déployés avec des identifiants mal protégés a été publié sur IT-Connect .",
+      "categories": [
+        "Actu Cybersécurité",
+        "Cybersécurité",
+        "Proxmox",
+        "Ransomware",
+        "VMware"
+      ],
+      "cves": []
+    },
+    {
+      "id": "https://www.it-connect.fr/?p=120357",
+      "feed": "itconnect",
+      "source": "IT-Connect",
+      "title": "Windows Server 2025 : Microsoft corrige en urgence un bug d’écran bleu lié à la mise à jour de novembre",
+      "link": "https://www.it-connect.fr/windows-server-2025-kb5138318-hotpatch-ecran-bleu/",
+      "date": "2026-11-27T16:38:46.000Z",
+      "summary": "KB5138318 : Microsoft a corrigé en urgence les écrans bleus de la mort (erreur 0x139) causés par le hotpatch de novembre 2026 sur Windows Server 2025. Le post Windows Server 2025 : Microsoft corrige en urgence un bug d’écran bleu lié à la mise à jour de novembre a été publié sur IT-Connect .",
+      "categories": [
+        "Logiciel - OS",
+        "Microsoft",
+        "Mise à jour",
+        "Windows Server",
+        "Windows Server 2025"
+      ],
+      "cves": []
+    },
     {
       "id": "https://www.it-connect.fr/?p=120353",
       "feed": "itconnect",
@@ -176,6 +210,127 @@
       "cves": [
         "CVE-2026-136716"
       ]
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1630/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Synology DSM et DSM Enterprise (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1630/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Synology DSM et DSM Enterprise. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1631/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans Xen (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1631/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans Xen. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1632/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans FreeRADIUS (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1632/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans FreeRADIUS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1633/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans MongoDB (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1633/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans MongoDB. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une élévation de privilèges et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1634/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans SolarWinds Serv-U (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1634/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans SolarWinds Serv-U. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1635/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans SPIP (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1635/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une atteinte à la confidentialité des données et une falsification de requêtes côté serveur (SSRF).",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1636/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1636/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1637/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1637/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1638/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1638/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Certaines d'entre elles permettent à un attaquant de provoquer une élévation de privilèges, un déni de service à distance et une atteinte à l'intégrité des données.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1639/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1639/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
+      "categories": [],
+      "cves": []
+    },
+    {
+      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1640/",
+      "feed": "securite",
+      "source": "CERT-FR",
+      "title": "Multiples vulnérabilités dans les produits IBM (27 novembre 2026)",
+      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1640/",
+      "date": "2026-11-27T00:00:00.000Z",
+      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
+      "categories": [],
+      "cves": []
     },
     {
       "id": "https://www.it-connect.fr/?p=120302",
@@ -374,40 +529,6 @@
       "cves": []
     },
     {
-      "id": "https://www.it-connect.fr/?p=120250",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web",
-      "link": "https://www.it-connect.fr/proxmox-ve-9-3-nouveautes/",
-      "date": "2026-11-25T19:24:23.000Z",
-      "summary": "Proxmox VE 9.3 est disponible : multipath et LVM partagé sur SAN se configurent depuis l'interface web, et les snapshots LVM passent en production. Le post Proxmox VE 9.3 est disponible : le SAN se gère désormais depuis l’interface web a été publié sur IT-Connect .",
-      "categories": [
-        "Logiciel - OS",
-        "Open Source",
-        "Proxmox",
-        "Virtualisation"
-      ],
-      "cves": []
-    },
-    {
-      "id": "https://www.it-connect.fr/?p=120199",
-      "feed": "itconnect",
-      "source": "IT-Connect",
-      "title": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
-      "link": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
-      "date": "2026-11-25T11:00:00.000Z",
-      "summary": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon. Le post Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas a été publié sur IT-Connect .",
-      "categories": [
-        "Bons Plans",
-        "Black Friday",
-        "Bon plan",
-        "Hardware",
-        "mini PC",
-        "VZMORE"
-      ],
-      "cves": []
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1615/",
       "feed": "securite",
       "source": "CERT-FR",
@@ -575,39 +696,6 @@
       "cves": []
     },
     {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans SPIP (23 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1599/",
-      "date": "2026-11-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans SPIP. Elles permettent à un attaquant de provoquer une injection de code indirecte à distance (XSS) et une injection de requêtes illégitimes par rebond (CSRF).",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits Palo Alto Networks (23 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1600/",
-      "date": "2026-11-23T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits Palo Alto Networks. Elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1601/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans Laravel (23 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1601/",
-      "date": "2026-11-23T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans Laravel. Elle permet à un attaquant de provoquer un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
       "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1602/",
       "feed": "securite",
       "source": "CERT-FR",
@@ -670,94 +758,6 @@
       "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1607/",
       "date": "2026-11-23T00:00:00.000Z",
       "summary": "De multiples vulnérabilités ont été découvertes dans les produits Synology. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, un déni de service à distance et une atteinte à la confidentialité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Red Hat (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1592/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Red Hat. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans le noyau Linux de SUSE (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1593/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de SUSE. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à la confidentialité des données et une atteinte à l'intégrité des données.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1594/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans le noyau Linux de Debian LTS (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1595/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux de Debian LTS. Elles permettent à un attaquant de provoquer une élévation de privilèges, une atteinte à la confidentialité des données et un déni de service.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans le noyau Linux d'Ubuntu (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1596/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans le noyau Linux d'Ubuntu. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire, une atteinte à l'intégrité des données et un déni de service.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits IBM (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1597/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits IBM. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un déni de service à distance.",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Multiples vulnérabilités dans les produits VMware (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1598/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "De multiples vulnérabilités ont été découvertes dans les produits VMware. Certaines d'entre elles permettent à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et une injection SQL (SQLi). Google et Mandiant indiquent que la vulnérabilité...",
-      "categories": [],
-      "cves": []
-    },
-    {
-      "id": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
-      "feed": "securite",
-      "source": "CERT-FR",
-      "title": "Vulnérabilité dans KeyCloak (20 novembre 2026)",
-      "link": "https://www.cert.cyber.gouv.fr/avis/CERTFR-2026-AVI-1586/",
-      "date": "2026-11-20T00:00:00.000Z",
-      "summary": "Une vulnérabilité a été découverte dans KeyCloak. Elle permet à un attaquant de provoquer un contournement de la politique de sécurité.",
       "categories": [],
       "cves": []
     },
